@@ -1,5 +1,5 @@
 # Change these first
-owner: cmpham # Your GitHub username
+owner: anduintransaction # Your GitHub username
 repo: upptime # Your GitHub repository name
 
 # Add your sites here
@@ -18,7 +18,7 @@ status-website:
   # cname: demo.upptime.js.org
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://avatars3.githubusercontent.com/u/8476311
   name: Upptime
   introTitle: "**Anduin** landing page uptime monitor and status page, powered by Uptime & GitHub."
   introMessage: Monitor landing pages uptime
