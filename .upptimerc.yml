@@ -19,9 +19,9 @@ status-website:
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /upptime
   logoUrl: https://avatars3.githubusercontent.com/u/8476311
-  name: Upptime
-  introTitle: "**Anduin** landing page uptime monitor and status page, powered by Uptime & GitHub."
-  introMessage: Monitor landing pages uptime
+  name: Anduin Transactions
+  introTitle: "Uptime monitor and status page"
+  introMessage: This page publishes our most up-to-the-minute information on landing page availability below. Check back here any time to get current status information.
   navbar:
     - title: Status
       href: /
