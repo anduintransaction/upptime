@@ -6,12 +6,20 @@ repo: upptime # Your GitHub repository name
 sites:
   - name: Anduin company landing page
     url: https://www.anduintransact.com
+  - name: Anduin company contact page
+    url: https://www.anduintransact.com/contact
   - name: Fundsub landing page
     url: https://www.fundsub.io
+  - name: Fundsub contact page
+    url: https://www.fundsub.io/contact
   - name: Anduin Dataroom landing page
     url: https://www.metadataroom.io/
+  - name: Anduin Dataroom contact page
+    url: https://www.metadataroom.io/contact
   - name: AnduinSign landing page
     url: https://www.anduinsign.io/
+  - name: AnduinSign contact page
+    url: https://www.anduinsign.io/contact
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
@@ -20,7 +28,7 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://avatars3.githubusercontent.com/u/8476311
   name: Anduin Transactions
-  introTitle: "Uptime monitor and status page"
+  introTitle: "Website status and uptime monitoring"
   introMessage: This page publishes our most up-to-the-minute information on landing page availability below. Check back here any time to get current status information.
   navbar:
     - title: Status
