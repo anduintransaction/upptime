@@ -4,11 +4,11 @@
     "url": "https://www.anduintransact.com",
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1398,
     "timeDay": 1426,
@@ -16,6 +16,7 @@
     "timeMonth": 1383,
     "timeYear": 1398,
     "dailyMinutesDown": {
+      "2021-08-13": 4,
       "2021-05-16": 24
     }
   },
@@ -24,11 +25,11 @@
     "url": "https://www.anduintransact.com/contact",
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1272,
     "timeDay": 1409,
@@ -36,6 +37,7 @@
     "timeMonth": 1208,
     "timeYear": 1272,
     "dailyMinutesDown": {
+      "2021-08-13": 3,
       "2021-05-16": 24
     }
   },
@@ -44,11 +46,11 @@
     "url": "https://www.fundsub.io",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1428,
     "timeDay": 1722,
@@ -56,6 +58,7 @@
     "timeMonth": 1371,
     "timeYear": 1428,
     "dailyMinutesDown": {
+      "2021-08-13": 3,
       "2021-05-16": 23
     }
   },
@@ -64,11 +67,11 @@
     "url": "https://www.fundsub.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.98%",
     "time": 1283,
     "timeDay": 1417,
@@ -76,6 +79,7 @@
     "timeMonth": 1313,
     "timeYear": 1283,
     "dailyMinutesDown": {
+      "2021-08-13": 2,
       "2021-06-10": 25,
       "2021-05-16": 23
     }
@@ -85,10 +89,10 @@
     "url": "https://www.metadataroom.io/",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 2819,
@@ -97,6 +101,7 @@
     "timeMonth": 3073,
     "timeYear": 2819,
     "dailyMinutesDown": {
+      "2021-08-13": 2,
       "2021-06-10": 25,
       "2021-05-16": 22
     }
@@ -106,10 +111,10 @@
     "url": "https://www.metadataroom.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 1080,
@@ -118,6 +123,7 @@
     "timeMonth": 994,
     "timeYear": 1080,
     "dailyMinutesDown": {
+      "2021-08-13": 1,
       "2021-06-10": 25,
       "2021-05-16": 22
     }
@@ -127,10 +133,10 @@
     "url": "https://www.anduinsign.io/",
     "icon": "https://favicons.githubusercontent.com/www.anduinsign.io",
     "slug": "anduin-sign-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 1454,
@@ -139,6 +145,7 @@
     "timeMonth": 1393,
     "timeYear": 1454,
     "dailyMinutesDown": {
+      "2021-08-13": 1,
       "2021-05-16": 21,
       "2021-01-13": 59
     }
@@ -148,9 +155,9 @@
     "url": "https://www.anduinsign.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.anduinsign.io",
     "slug": "anduin-sign-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -160,6 +167,7 @@
     "timeMonth": 1309,
     "timeYear": 1334,
     "dailyMinutesDown": {
+      "2021-08-13": 0,
       "2021-06-10": 25,
       "2021-05-16": 21
     }
