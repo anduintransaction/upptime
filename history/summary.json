@@ -25,18 +25,18 @@
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-contact-page",
     "status": "down",
-    "uptime": "88.42%",
+    "uptime": "88.38%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "1.38%",
-    "uptimeYear": "88.42%",
+    "uptimeYear": "88.38%",
     "time": 1123,
     "timeDay": 52,
     "timeWeek": 71,
     "timeMonth": 61,
     "timeYear": 1123,
     "dailyMinutesDown": {
-      "2021-10-12": 11,
+      "2021-10-12": 190,
       "2021-10-11": 1440,
       "2021-10-10": 1440,
       "2021-10-09": 1440,
@@ -77,11 +77,11 @@
     "url": "https://www.fundsub.io",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1409,
     "timeDay": 1030,
@@ -89,6 +89,7 @@
     "timeMonth": 1335,
     "timeYear": 1409,
     "dailyMinutesDown": {
+      "2021-10-12": 3,
       "2021-05-16": 23
     }
   },
@@ -97,11 +98,11 @@
     "url": "https://www.fundsub.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1430,
     "timeDay": 9904,
@@ -109,6 +110,7 @@
     "timeMonth": 2572,
     "timeYear": 1430,
     "dailyMinutesDown": {
+      "2021-10-12": 2,
       "2021-06-10": 25,
       "2021-05-16": 23
     }
@@ -118,10 +120,10 @@
     "url": "https://www.metadataroom.io/",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 2802,
@@ -130,6 +132,7 @@
     "timeMonth": 2793,
     "timeYear": 2802,
     "dailyMinutesDown": {
+      "2021-10-12": 2,
       "2021-06-10": 25,
       "2021-05-16": 22
     }
@@ -139,10 +142,10 @@
     "url": "https://www.metadataroom.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1161,
@@ -151,6 +154,7 @@
     "timeMonth": 1935,
     "timeYear": 1161,
     "dailyMinutesDown": {
+      "2021-10-12": 1,
       "2021-06-10": 25,
       "2021-05-16": 22
     }
@@ -160,10 +164,10 @@
     "url": "https://www.anduinsign.io/",
     "icon": "https://favicons.githubusercontent.com/www.anduinsign.io",
     "slug": "anduin-sign-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 1425,
@@ -172,6 +176,7 @@
     "timeMonth": 1334,
     "timeYear": 1425,
     "dailyMinutesDown": {
+      "2021-10-12": 1,
       "2021-05-16": 21,
       "2021-01-13": 59
     }
@@ -181,9 +186,9 @@
     "url": "https://www.anduinsign.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.anduinsign.io",
     "slug": "anduin-sign-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
@@ -193,6 +198,7 @@
     "timeMonth": 1296,
     "timeYear": 1324,
     "dailyMinutesDown": {
+      "2021-10-12": 0,
       "2021-06-10": 25,
       "2021-05-16": 21
     }
