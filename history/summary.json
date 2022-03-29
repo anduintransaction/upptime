@@ -4,9 +4,9 @@
     "url": "https://www.anduintransact.com",
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -16,6 +16,7 @@
     "timeMonth": 285,
     "timeYear": 768,
     "dailyMinutesDown": {
+      "2022-03-29": 0,
       "2021-05-16": 24
     }
   },
@@ -25,18 +26,18 @@
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-contact-page",
     "status": "down",
-    "uptime": "54.56%",
+    "uptime": "54.52%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "4.67%",
-    "uptimeYear": "45.38%",
+    "uptimeYear": "45.28%",
     "time": 735,
     "timeDay": 5,
     "timeWeek": 37,
     "timeMonth": 31,
     "timeYear": 612,
     "dailyMinutesDown": {
-      "2022-03-29": 19,
+      "2022-03-29": 529,
       "2022-03-28": 1440,
       "2022-03-27": 1440,
       "2022-03-26": 1440,
@@ -297,7 +298,7 @@
     "time": 2845,
     "timeDay": 2874,
     "timeWeek": 3166,
-    "timeMonth": 3218,
+    "timeMonth": 3192,
     "timeYear": 2859,
     "dailyMinutesDown": {
       "2022-02-20": 30,
@@ -320,7 +321,7 @@
     "time": 1209,
     "timeDay": 1422,
     "timeWeek": 1382,
-    "timeMonth": 1382,
+    "timeMonth": 1363,
     "timeYear": 1199,
     "dailyMinutesDown": {
       "2022-02-20": 29,
@@ -343,7 +344,7 @@
     "time": 1414,
     "timeDay": 1280,
     "timeWeek": 1523,
-    "timeMonth": 1532,
+    "timeMonth": 1534,
     "timeYear": 1376,
     "dailyMinutesDown": {
       "2022-02-20": 29,
@@ -367,7 +368,7 @@
     "time": 1440,
     "timeDay": 1512,
     "timeWeek": 1838,
-    "timeMonth": 1796,
+    "timeMonth": 1792,
     "timeYear": 1443,
     "dailyMinutesDown": {
       "2022-02-20": 28,
