@@ -11,14 +11,13 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 826,
-    "timeDay": 320,
-    "timeWeek": 227,
-    "timeMonth": 226,
-    "timeYear": 620,
+    "timeDay": 1051,
+    "timeWeek": 352,
+    "timeMonth": 252,
+    "timeYear": 619,
     "dailyMinutesDown": {
       "2022-04-14": 31,
-      "2022-04-10": 16,
-      "2021-05-16": 24
+      "2022-04-10": 16
     }
   },
   {
@@ -27,18 +26,19 @@
     "icon": "https://favicons.githubusercontent.com/www.anduintransact.com",
     "slug": "anduin-company-contact-page",
     "status": "down",
-    "uptime": "49.28%",
+    "uptime": "49.18%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "1.38%",
-    "uptimeYear": "32.50%",
-    "time": 674,
-    "timeDay": 71,
-    "timeWeek": 73,
-    "timeMonth": 93,
-    "timeYear": 469,
+    "uptimeYear": "32.23%",
+    "time": 673,
+    "timeDay": 112,
+    "timeWeek": 66,
+    "timeMonth": 95,
+    "timeYear": 467,
     "dailyMinutesDown": {
-      "2022-05-15": 26,
+      "2022-05-16": 21,
+      "2022-05-15": 1440,
       "2022-05-14": 1440,
       "2022-05-13": 1440,
       "2022-05-12": 1440,
@@ -285,8 +285,7 @@
       "2021-09-13": 1440,
       "2021-09-12": 1440,
       "2021-09-11": 1440,
-      "2021-09-10": 493,
-      "2021-05-16": 24
+      "2021-09-10": 493
     }
   },
   {
@@ -301,13 +300,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1422,
-    "timeDay": 1430,
-    "timeWeek": 1596,
-    "timeMonth": 1559,
+    "timeDay": 1705,
+    "timeWeek": 1587,
+    "timeMonth": 1567,
     "timeYear": 1405,
     "dailyMinutesDown": {
-      "2022-02-20": 31,
-      "2021-05-16": 23
+      "2022-02-20": 31
     }
   },
   {
@@ -321,15 +319,14 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 1517,
-    "timeDay": 1639,
-    "timeWeek": 1949,
-    "timeMonth": 1928,
-    "timeYear": 1581,
+    "time": 1518,
+    "timeDay": 2023,
+    "timeWeek": 1957,
+    "timeMonth": 1933,
+    "timeYear": 1583,
     "dailyMinutesDown": {
       "2022-02-20": 30,
-      "2021-06-10": 25,
-      "2021-05-16": 23
+      "2021-06-10": 25
     }
   },
   {
@@ -343,16 +340,15 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
-    "time": 2870,
-    "timeDay": 3198,
-    "timeWeek": 3189,
-    "timeMonth": 3159,
-    "timeYear": 2895,
+    "time": 2871,
+    "timeDay": 3501,
+    "timeWeek": 3206,
+    "timeMonth": 3169,
+    "timeYear": 2897,
     "dailyMinutesDown": {
       "2022-02-20": 30,
       "2022-01-10": 138,
-      "2021-06-10": 25,
-      "2021-05-16": 22
+      "2021-06-10": 25
     }
   },
   {
@@ -367,15 +363,14 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 1230,
-    "timeDay": 1319,
-    "timeWeek": 1443,
-    "timeMonth": 1452,
-    "timeYear": 1251,
+    "timeDay": 1410,
+    "timeWeek": 1451,
+    "timeMonth": 1455,
+    "timeYear": 1252,
     "dailyMinutesDown": {
       "2022-02-20": 29,
       "2022-01-10": 137,
-      "2021-06-10": 25,
-      "2021-05-16": 22
+      "2021-06-10": 25
     }
   },
   {
@@ -389,17 +384,16 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.48%",
-    "time": 1427,
-    "timeDay": 403,
-    "timeWeek": 1179,
-    "timeMonth": 1524,
-    "timeYear": 1396,
+    "time": 1425,
+    "timeDay": 221,
+    "timeWeek": 996,
+    "timeMonth": 1490,
+    "timeYear": 1393,
     "dailyMinutesDown": {
       "2022-02-20": 29,
       "2021-10-23": 131,
       "2021-10-22": 1440,
-      "2021-10-21": 1107,
-      "2021-05-16": 21
+      "2021-10-21": 1107
     }
   },
   {
@@ -413,18 +407,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.48%",
-    "time": 1474,
-    "timeDay": 109,
-    "timeWeek": 1237,
-    "timeMonth": 1688,
-    "timeYear": 1505,
+    "time": 1471,
+    "timeDay": 16,
+    "timeWeek": 990,
+    "timeMonth": 1638,
+    "timeYear": 1502,
     "dailyMinutesDown": {
       "2022-02-20": 28,
       "2021-10-23": 131,
       "2021-10-22": 1440,
       "2021-10-21": 1107,
-      "2021-06-10": 25,
-      "2021-05-16": 21
+      "2021-06-10": 25
     }
   }
 ]
