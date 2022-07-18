@@ -6,8 +6,8 @@ repo: upptime # Your GitHub repository name
 sites:
   - name: Anduin company landing page
     url: https://www.anduintransact.com
-  - name: Anduin company contact page
-    url: https://www.anduintransact.com/contact
+#  - name: Anduin company contact page
+#    url: https://www.anduintransact.com/contact
   - name: Fundsub landing page
     url: https://www.fundsub.io
   - name: Fundsub contact page
@@ -20,6 +20,14 @@ sites:
     url: https://www.anduinsign.io/
   - name: AnduinSign contact page
     url: https://www.anduinsign.io/contact
+  - name: Anduin App login page
+    url: "https://id.anduin.app/#/login"
+  - name: Anduin App Deal main page
+    url: "https://deals.anduin.app/"
+  - name: Anduin App Dataroom main page
+    url: "https://dataroom.anduin.app/"
+  - name: Anduin App Sign main page
+    url: "https://sign.anduin.app/"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
