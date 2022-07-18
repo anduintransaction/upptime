@@ -22,12 +22,24 @@ sites:
     url: https://www.anduinsign.io/contact
   - name: Anduin App login page
     url: "https://id.anduin.app/#/login"
-  - name: Anduin App Deal main page
-    url: "https://deals.anduin.app/"
-  - name: Anduin App Dataroom main page
-    url: "https://dataroom.anduin.app/"
-  - name: Anduin App Sign main page
-    url: "https://sign.anduin.app/"
+  - name: Anduin App Deal status
+    url: "https://deals.anduintransact.com/api/v2/standalone-app/get-app-version"
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+  - name: Anduin App Dataroom status
+    url: "https://dataroom.anduin.app/api/v2/standalone-app/get-app-version"
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+  - name: Anduin App Sign status
+    url: "https://sign.anduin.app/api/v2/standalone-app/get-app-version"
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
