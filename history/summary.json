@@ -26,10 +26,10 @@
     "url": "https://www.fundsub.io",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1427,
@@ -38,6 +38,7 @@
     "timeMonth": 1498,
     "timeYear": 1432,
     "dailyMinutesDown": {
+      "2022-07-24": 2,
       "2022-02-20": 31
     }
   },
@@ -46,10 +47,10 @@
     "url": "https://www.fundsub.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.fundsub.io",
     "slug": "fundsub-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1608,
@@ -58,6 +59,7 @@
     "timeMonth": 1954,
     "timeYear": 1713,
     "dailyMinutesDown": {
+      "2022-07-24": 1,
       "2022-02-20": 30
     }
   },
@@ -66,10 +68,10 @@
     "url": "https://www.metadataroom.io/",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-landing-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 2928,
@@ -78,6 +80,7 @@
     "timeMonth": 3134,
     "timeYear": 2956,
     "dailyMinutesDown": {
+      "2022-07-24": 1,
       "2022-02-20": 30,
       "2022-01-10": 138
     }
@@ -87,9 +90,9 @@
     "url": "https://www.metadataroom.io/contact",
     "icon": "https://favicons.githubusercontent.com/www.metadataroom.io",
     "slug": "anduin-dataroom-contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
@@ -99,6 +102,7 @@
     "timeMonth": 1461,
     "timeYear": 1342,
     "dailyMinutesDown": {
+      "2022-07-24": 0,
       "2022-02-20": 29,
       "2022-01-10": 137
     }
