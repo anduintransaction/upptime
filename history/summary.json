@@ -28,9 +28,9 @@
     "slug": "fundsub-landing-page",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.52%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1427,
     "timeDay": 1553,
@@ -38,7 +38,6 @@
     "timeMonth": 1499,
     "timeYear": 1439,
     "dailyMinutesDown": {
-      "2022-08-08": 7,
       "2022-02-20": 31
     }
   },
@@ -49,9 +48,9 @@
     "slug": "fundsub-contact-page",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.56%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1632,
     "timeDay": 1707,
@@ -59,7 +58,6 @@
     "timeMonth": 1788,
     "timeYear": 1738,
     "dailyMinutesDown": {
-      "2022-08-08": 6,
       "2022-02-20": 30
     }
   },
@@ -70,9 +68,9 @@
     "slug": "anduin-dataroom-landing-page",
     "status": "up",
     "uptime": "99.97%",
-    "uptimeDay": "99.59%",
-    "uptimeWeek": "99.54%",
-    "uptimeMonth": "99.89%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.60%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.96%",
     "time": 2943,
     "timeDay": 3270,
@@ -80,7 +78,6 @@
     "timeMonth": 3081,
     "timeYear": 2969,
     "dailyMinutesDown": {
-      "2022-08-08": 6,
       "2022-08-05": 40,
       "2022-02-20": 30,
       "2022-01-10": 138
@@ -93,9 +90,9 @@
     "slug": "anduin-dataroom-contact-page",
     "status": "up",
     "uptime": "99.97%",
-    "uptimeDay": "99.62%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 1282,
     "timeDay": 1493,
@@ -103,7 +100,6 @@
     "timeMonth": 1398,
     "timeYear": 1361,
     "dailyMinutesDown": {
-      "2022-08-08": 5,
       "2022-02-20": 29,
       "2022-01-10": 137
     }
