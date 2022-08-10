@@ -6,9 +6,9 @@
     "slug": "anduin-company-landing-page",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.49%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 670,
     "timeDay": 1119,
@@ -16,7 +16,6 @@
     "timeMonth": 330,
     "timeYear": 370,
     "dailyMinutesDown": {
-      "2022-08-09": 7,
       "2022-07-03": 19,
       "2022-04-14": 31,
       "2022-04-10": 16
