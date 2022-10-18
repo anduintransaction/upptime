@@ -178,53 +178,59 @@
     "url": "https://deals.anduintransact.com/api/v2/standalone-app/get-app-version",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "anduin-app-deal-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 202,
-    "timeDay": 327,
-    "timeWeek": 219,
-    "timeMonth": 187,
-    "timeYear": 202,
-    "dailyMinutesDown": {}
+    "time": 201,
+    "timeDay": 209,
+    "timeWeek": 203,
+    "timeMonth": 184,
+    "timeYear": 201,
+    "dailyMinutesDown": {
+      "2022-10-18": 0
+    }
   },
   {
     "name": "Anduin App Dataroom status",
     "url": "https://dataroom.anduin.app/api/v2/standalone-app/get-app-version",
     "icon": "https://icons.duckduckgo.com/ip3/dataroom.anduin.app.ico",
     "slug": "anduin-app-dataroom-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 212,
-    "timeDay": 384,
-    "timeWeek": 210,
-    "timeMonth": 190,
-    "timeYear": 212,
-    "dailyMinutesDown": {}
+    "time": 210,
+    "timeDay": 225,
+    "timeWeek": 192,
+    "timeMonth": 186,
+    "timeYear": 210,
+    "dailyMinutesDown": {
+      "2022-10-18": 0
+    }
   },
   {
     "name": "Anduin App Sign status",
     "url": "https://sign.anduin.app/api/v2/standalone-app/get-app-version",
     "icon": "https://icons.duckduckgo.com/ip3/sign.anduin.app.ico",
     "slug": "anduin-app-sign-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 215,
-    "timeDay": 372,
-    "timeWeek": 210,
-    "timeMonth": 179,
-    "timeYear": 215,
-    "dailyMinutesDown": {}
+    "time": 214,
+    "timeDay": 234,
+    "timeWeek": 195,
+    "timeMonth": 177,
+    "timeYear": 214,
+    "dailyMinutesDown": {
+      "2022-10-18": 0
+    }
   }
 ]
