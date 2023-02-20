@@ -10,9 +10,9 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 300,
-    "timeDay": 152,
-    "timeWeek": 192,
+    "time": 299,
+    "timeDay": 165,
+    "timeWeek": 199,
     "timeMonth": 220,
     "timeYear": 288,
     "dailyMinutesDown": {
@@ -35,13 +35,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 1479,
-    "timeDay": 1659,
-    "timeWeek": 1500,
-    "timeMonth": 1502,
-    "timeYear": 1525,
+    "timeDay": 1663,
+    "timeWeek": 1542,
+    "timeMonth": 1503,
+    "timeYear": 1527,
     "dailyMinutesDown": {
-      "2022-08-09": 40,
-      "2022-02-20": 31
+      "2022-08-09": 40
     }
   },
   {
@@ -56,14 +55,13 @@
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
     "time": 1692,
-    "timeDay": 1491,
-    "timeWeek": 1383,
-    "timeMonth": 1407,
-    "timeYear": 1697,
+    "timeDay": 1481,
+    "timeWeek": 1408,
+    "timeMonth": 1423,
+    "timeYear": 1696,
     "dailyMinutesDown": {
       "2023-02-09": 15,
-      "2022-08-09": 40,
-      "2022-02-20": 30
+      "2022-08-09": 40
     }
   },
   {
@@ -77,16 +75,15 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
-    "time": 3028,
-    "timeDay": 3355,
-    "timeWeek": 3099,
-    "timeMonth": 3073,
-    "timeYear": 3097,
+    "time": 3029,
+    "timeDay": 3472,
+    "timeWeek": 3165,
+    "timeMonth": 3085,
+    "timeYear": 3100,
     "dailyMinutesDown": {
       "2023-02-09": 15,
       "2022-08-09": 39,
-      "2022-08-05": 40,
-      "2022-02-20": 30
+      "2022-08-05": 40
     }
   },
   {
@@ -100,15 +97,14 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
-    "time": 1273,
-    "timeDay": 887,
-    "timeWeek": 953,
-    "timeMonth": 1032,
-    "timeYear": 1278,
+    "time": 1272,
+    "timeDay": 915,
+    "timeWeek": 945,
+    "timeMonth": 1033,
+    "timeYear": 1277,
     "dailyMinutesDown": {
       "2023-02-09": 15,
-      "2022-08-09": 39,
-      "2022-02-20": 29
+      "2022-08-09": 39
     }
   },
   {
@@ -122,14 +118,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 875,
-    "timeDay": 330,
-    "timeWeek": 348,
-    "timeMonth": 369,
-    "timeYear": 669,
-    "dailyMinutesDown": {
-      "2022-02-20": 29
-    }
+    "time": 873,
+    "timeDay": 279,
+    "timeWeek": 339,
+    "timeMonth": 373,
+    "timeYear": 663,
+    "dailyMinutesDown": {}
   },
   {
     "name": "AnduinSign contact page",
@@ -142,14 +136,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 829,
-    "timeDay": 56,
-    "timeWeek": 87,
-    "timeMonth": 90,
-    "timeYear": 530,
-    "dailyMinutesDown": {
-      "2022-02-20": 28
-    }
+    "time": 827,
+    "timeDay": 110,
+    "timeWeek": 91,
+    "timeMonth": 92,
+    "timeYear": 520,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Anduin App login page",
@@ -163,9 +155,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 213,
-    "timeDay": 66,
-    "timeWeek": 204,
-    "timeMonth": 219,
+    "timeDay": 248,
+    "timeWeek": 189,
+    "timeMonth": 224,
     "timeYear": 213,
     "dailyMinutesDown": {}
   },
@@ -175,18 +167,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "anduin-app-deal-status",
     "status": "down",
-    "uptime": "42.70%",
+    "uptime": "42.50%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "42.70%",
+    "uptimeYear": "42.50%",
     "time": 196,
-    "timeDay": 79,
-    "timeWeek": 211,
-    "timeMonth": 209,
+    "timeDay": 87,
+    "timeWeek": 168,
+    "timeMonth": 208,
     "timeYear": 196,
     "dailyMinutesDown": {
-      "2023-02-19": 21,
+      "2023-02-20": 22,
+      "2023-02-19": 1440,
       "2023-02-18": 1440,
       "2023-02-17": 1440,
       "2023-02-16": 1440,
@@ -319,18 +312,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/dataroom.anduin.app.ico",
     "slug": "anduin-app-dataroom-status",
     "status": "down",
-    "uptime": "42.70%",
+    "uptime": "42.50%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "42.70%",
+    "uptimeYear": "42.50%",
     "time": 211,
-    "timeDay": 95,
-    "timeWeek": 234,
-    "timeMonth": 236,
+    "timeDay": 88,
+    "timeWeek": 191,
+    "timeMonth": 231,
     "timeYear": 211,
     "dailyMinutesDown": {
-      "2023-02-19": 21,
+      "2023-02-20": 22,
+      "2023-02-19": 1440,
       "2023-02-18": 1440,
       "2023-02-17": 1440,
       "2023-02-16": 1440,
@@ -463,18 +457,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/sign.anduin.app.ico",
     "slug": "anduin-app-sign-status",
     "status": "down",
-    "uptime": "42.70%",
+    "uptime": "42.50%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "42.70%",
-    "time": 209,
-    "timeDay": 80,
-    "timeWeek": 239,
+    "uptimeYear": "42.50%",
+    "time": 208,
+    "timeDay": 88,
+    "timeWeek": 199,
     "timeMonth": 234,
-    "timeYear": 209,
+    "timeYear": 208,
     "dailyMinutesDown": {
-      "2023-02-19": 21,
+      "2023-02-20": 23,
+      "2023-02-19": 1440,
       "2023-02-18": 1440,
       "2023-02-17": 1440,
       "2023-02-16": 1440,
