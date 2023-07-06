@@ -5,25 +5,21 @@ repo: upptime # Your GitHub repository name
 # Add your sites here
 sites:
   - name: Anduin company landing page
-    url: https://www.anduintransact.com
-#  - name: Anduin company contact page
-#    url: https://www.anduintransact.com/contact
+    url: https://anduintransact.com
+  - name: Support page
+    url: https://support.anduintransact.com/
+  - name: Anduin company contact page
+    url: https://anduintransact.com/contact
   - name: Fundsub landing page
-    url: https://www.fundsub.io
-  - name: Fundsub contact page
-    url: https://www.fundsub.io/contact
+    url: https://fundsub.anduin.app/
   - name: Anduin Dataroom landing page
-    url: https://www.metadataroom.io/
-  - name: Anduin Dataroom contact page
-    url: https://www.metadataroom.io/contact
+    url: https://dataroom.anduin.app/
   - name: AnduinSign landing page
-    url: https://www.anduinsign.io/
-  - name: AnduinSign contact page
-    url: https://www.anduinsign.io/contact
+    url: https://sign.anduin.app/
   - name: Anduin App login page
     url: "https://id.anduin.app/#/login"
   - name: Anduin App Deal status
-    url: "https://deals.anduintransact.com/api/v2/standalone-app/get-app-version"
+    url: "https://fundsub.anduin.app/api/v2/standalone-app/get-app-version"
     method: POST
     headers:
       - "Content-Type: application/json"
@@ -54,7 +50,7 @@ status-website:
     - title: Status
       href: /
     - title: Anduin
-      href: https://www.anduintransact.com/
+      href: https://anduintransact.com/
 
 workflowSchedule:
   graphs: "0 0 * * *"
