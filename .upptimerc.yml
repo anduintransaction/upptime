@@ -6,36 +6,64 @@ repo: upptime # Your GitHub repository name
 sites:
   - name: Anduin company landing page
     url: https://anduintransact.com
+    assignees:
+      - andrew-anduin
   - name: Support page
     url: https://support.anduintransact.com/
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin company contact page
     url: https://anduintransact.com/contact
+    assignees:
+      - andrew-anduin
   - name: Fundsub landing page
     url: https://fundsub.anduin.app/
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin Dataroom landing page
     url: https://dataroom.anduin.app/
+    assignees:
+      - msongd
+      - victole-sec
   - name: AnduinSign landing page
     url: https://sign.anduin.app/
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin App login page
     url: "https://id.anduin.app/#/login"  
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin App Deal status
     url: "https://fundsub.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{}'
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin App Dataroom status
     url: "https://dataroom.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{}'
+    assignees:
+      - msongd
+      - victole-sec
   - name: Anduin App Sign status
     url: "https://sign.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{}'
+    assignees:
+      - msongd
+      - victole-sec
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
