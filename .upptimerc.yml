@@ -48,7 +48,7 @@ status-website:
   introMessage: This page publishes our most up-to-the-minute information on landing page availability below. Check back here any time to get current status information.
   navbar:
     - title: Status
-      href: /
+      href: /upptime/
     - title: Anduin
       href: https://anduintransact.com/
 
