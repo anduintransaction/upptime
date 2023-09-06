@@ -4,7 +4,7 @@ repo: upptime # Your GitHub repository name
 
 # Add your sites here
 sites:
-  - name: Anduin company landing page
+  - name: Website
     url: https://anduintransact.com
     assignees:
       - andrew-anduin
@@ -13,31 +13,16 @@ sites:
     assignees:
       - msongd
       - victole-sec
-  - name: Anduin company contact page
+  - name: Contact page
     url: https://anduintransact.com/contact
     assignees:
       - andrew-anduin
-  - name: Fundsub landing page
-    url: https://fundsub.anduin.app/
-    assignees:
-      - msongd
-      - victole-sec
-  - name: Anduin Dataroom landing page
-    url: https://dataroom.anduin.app/
-    assignees:
-      - msongd
-      - victole-sec
-  - name: AnduinSign landing page
-    url: https://sign.anduin.app/
-    assignees:
-      - msongd
-      - victole-sec
-  - name: Anduin App login page
+  - name: Authentication system
     url: "https://id.anduin.app/#/login"  
     assignees:
       - msongd
       - victole-sec
-  - name: Anduin App Deal status
+  - name: FundSub product status
     url: "https://fundsub.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
@@ -46,7 +31,7 @@ sites:
     assignees:
       - msongd
       - victole-sec
-  - name: Anduin App Dataroom status
+  - name: Dataroom product status
     url: "https://dataroom.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
@@ -55,7 +40,7 @@ sites:
     assignees:
       - msongd
       - victole-sec
-  - name: Anduin App Sign status
+  - name: eSign product status
     url: "https://sign.anduin.app/api/v3/standalone-app"
     method: POST
     headers:
@@ -64,6 +49,18 @@ sites:
     assignees:
       - msongd
       - victole-sec
+  - name: RESTful API status
+    url: https://api.anduin.app/api/v1/fundsub/docs/
+    assignees:
+      - msongd
+      - victole-sec
+  - name: GraphQL API status
+    url: https://api.anduin.app/graphql
+    headers:
+      - "Content-Type: application/json"
+    body: '{"query":"{queryFundSubscription(first: 10) {id orders(first: 100) { mainContact { id email } status } } }","operationName":null}'
+    expectedStatusCodes:
+      - 401
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
@@ -78,7 +75,7 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Anduin
+    - title: Website
       href: https://anduintransact.com/
 
 workflowSchedule:
