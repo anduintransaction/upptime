@@ -70,7 +70,7 @@ status-website:
   # cname: demo.upptime.js.org
   # Uncomment the following line if you don't have a custom domain and add your repo name
   cname: status.anduin.report
-  baseUrl: /upptime
+  #baseUrl: /upptime
   logoUrl: https://avatars3.githubusercontent.com/u/8476311
   name: Anduin Transactions System Status Report
   introTitle: "Website status and uptime monitoring"
