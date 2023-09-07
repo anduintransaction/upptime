@@ -61,6 +61,8 @@ sites:
     body: '{"query":"{queryFundSubscription(first: 10) {id orders(first: 100) { mainContact { id email } status } } }","operationName":null}'
     expectedStatusCodes:
       - 401
+  - name: Test Secret Site
+    url: $SECRET_SITE
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
