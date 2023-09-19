@@ -8,6 +8,8 @@ sites:
     url: https://anduintransact.com
     assignees:
       - andrew-anduin
+      - msongd
+      - victole-sec
   - name: Support page
     url: https://support.anduintransact.com/
     assignees:
@@ -17,6 +19,8 @@ sites:
     url: https://anduintransact.com/contact
     assignees:
       - andrew-anduin
+      - msongd
+      - victole-sec
   - name: Authentication system
     url: "https://id.anduin.app/#/login"  
     assignees:
@@ -61,6 +65,9 @@ sites:
     body: '{"query":"{queryFundSubscription(first: 10) {id orders(first: 100) { mainContact { id email } status } } }","operationName":null}'
     expectedStatusCodes:
       - 401
+    assignees:
+      - msongd
+      - victole-sec
   - name: Test Secret Site
     url: $SECRET_SITE
     assignees:
