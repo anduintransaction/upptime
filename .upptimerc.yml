@@ -7,24 +7,18 @@ sites:
   - name: Website
     url: https://anduintransact.com
     assignees:
-      - andrew-anduin
-      - msongd
       - victole-sec
   - name: Support page
     url: https://support.anduintransact.com/
     assignees:
-      - msongd
       - victole-sec
   - name: Contact page
     url: https://anduintransact.com/contact
     assignees:
-      - andrew-anduin
-      - msongd
       - victole-sec
   - name: Authentication system
     url: "https://id.anduin.app/#/login"  
     assignees:
-      - msongd
       - victole-sec
   - name: FundSub product status
     url: "https://fundsub.anduin.app/api/v3/standalone-app"
@@ -33,7 +27,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
     assignees:
-      - msongd
       - victole-sec
   - name: Dataroom product status
     url: "https://dataroom.anduin.app/api/v3/standalone-app"
@@ -42,7 +35,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
     assignees:
-      - msongd
       - victole-sec
   - name: eSign product status
     url: "https://sign.anduin.app/api/v3/standalone-app"
@@ -56,7 +48,6 @@ sites:
   - name: RESTful API status
     url: https://api.anduin.app/api/v1/fundsub/docs/
     assignees:
-      - msongd
       - victole-sec
   - name: GraphQL API status
     url: https://api.anduin.app/graphql
@@ -66,12 +57,10 @@ sites:
     expectedStatusCodes:
       - 401
     assignees:
-      - msongd
       - victole-sec
   - name: Test Secret Site
     url: $SECRET_SITE
     assignees:
-      - msongd
       - victole-sec
 
 status-website:
