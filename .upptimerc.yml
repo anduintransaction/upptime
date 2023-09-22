@@ -63,6 +63,116 @@ sites:
     assignees:
       - victole-sec
 
+  - name: Gondor Public
+    url: "https://deals.anduintransact.com/api/v3/standalone-app"
+      method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: Gondor Internal
+    url: $GONDOR_INTERNAL_ANDUINTRANSACT
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+    
+  - name: Gondor Demo
+    url: $GONDOR_DEMO_ANDUINTRANSACT
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+        
+  - name: Gondor Canary
+    url: $GONDOR_CANARY_ANDUINTRANSACT
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: Minas Tirith
+    url: $GONDOR_MINAS_ANDUINTRANSACT
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: SyncGateway Gondor Public
+    url: https://sync.anduintransact.com
+
+  - name: SyncGateway Gondor Canary
+    url: $SYNCGATEWAY_CANARY_ANDUINTRANSACT
+        
+  - name: SyncGateway Gondor Internal
+    url: $SYNCGATEWAY_INTERNAL_ANDUINTRANSACT
+
+  - name: SyncGateway Gondor Demo
+    url: $SYNCGATEWAY_DEMO_ANDUINTRANSACT
+
+  - name: SyncGateway Minas Tirith
+    url: $SYNCGATEWAY_MINAS_ANDUINTRANSACT
+
+  - name: DocServer Gondor Public
+    url: https://doc-server.anduintransact.com/web-apps/apps/api/documents/api.js
+
+  - name: DocServer Gondor Canary
+    url: $DOCSERVER_CANARY_ANDUINTRANSACT
+        
+  - name: DocServer Gondor Internal
+    url: $DOCSERVER_INTERNAL_ANDUINTRANSACT
+
+  - name: DocServer Gondor Demo
+    url: $DOCSERVER_DEMO_ANDUINTRANSACT
+
+  - name: DocServer Minas Tirith
+    url: $DOCSERVER_MINAS_ANDUINTRANSACT
+
+  - name: Board Consent
+    url: $BOARDCONSENT
+
+  - name: FundSub website
+    url: "https://www.fundsub.io"
+  
+  - name: Signature website
+    url: "https://www.anduinsign.io"
+
+  - name: Portal Public
+    url: https://portal.anduin.app/api/v3/standalone-app
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: Portal Canary
+    url: $PORTAL_CANARY_APP
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+        
+  - name: Portal Internal
+    url: $PORTAL_INTERNAL_APP
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: Portal Demo
+    url: $PORTAL_DEMO_APP
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+  - name: Portal Minas Tirith
+    url: $PORTAL_MINAS_APP
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{}'
+
+
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   # cname: demo.upptime.js.org
