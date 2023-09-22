@@ -65,7 +65,7 @@ sites:
 
   - name: Gondor Public
     url: "https://deals.anduintransact.com/api/v3/standalone-app"
-      method: POST
+    method: POST
     headers:
       - "Content-Type: application/json"
     body: '{}'
