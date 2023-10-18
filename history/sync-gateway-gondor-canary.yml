@@ -1,7 +1,7 @@
 url: $SYNCGATEWAY_CANARY_ANDUINTRANSACT
 status: up
 code: 200
-responseTime: 174
-lastUpdated: 2023-10-17T23:03:04.833Z
+responseTime: 180
+lastUpdated: 2023-10-18T23:03:09.179Z
 startTime: 2023-09-22T09:34:47.567Z
 generator: Upptime <https://github.com/upptime/upptime>
