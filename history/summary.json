@@ -58,10 +58,10 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 189,
@@ -69,7 +69,9 @@
     "timeWeek": 165,
     "timeMonth": 204,
     "timeYear": 189,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-10-30": 1
+    }
   },
   {
     "name": "FundSub product status",
@@ -130,10 +132,10 @@
     "url": "https://api.anduin.app/api/v1/fundsub/docs/",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "res-tful-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 178,
@@ -141,16 +143,18 @@
     "timeWeek": 161,
     "timeMonth": 193,
     "timeYear": 178,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-10-30": 1
+    }
   },
   {
     "name": "GraphQL API status",
     "url": "https://api.anduin.app/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "graph-ql-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -159,7 +163,9 @@
     "timeWeek": 26,
     "timeMonth": 35,
     "timeYear": 31,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-10-30": 0
+    }
   },
   {
     "name": "Test Secret Site",
