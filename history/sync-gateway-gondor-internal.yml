@@ -1,7 +1,7 @@
 url: $SYNCGATEWAY_INTERNAL_ANDUINTRANSACT
 status: up
 code: 200
-responseTime: 85
-lastUpdated: 2023-11-03T23:03:08.518Z
+responseTime: 175
+lastUpdated: 2023-11-04T23:02:55.777Z
 startTime: 2023-09-22T09:34:48.118Z
 generator: Upptime <https://github.com/upptime/upptime>
