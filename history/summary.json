@@ -582,17 +582,19 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 158,
-    "timeDay": 126,
-    "timeWeek": 143,
-    "timeMonth": 174,
-    "timeYear": 158,
-    "dailyMinutesDown": {}
+    "time": 157,
+    "timeDay": 110,
+    "timeWeek": 137,
+    "timeMonth": 172,
+    "timeYear": 157,
+    "dailyMinutesDown": {
+      "2023-11-07": 0
+    }
   }
 ]
