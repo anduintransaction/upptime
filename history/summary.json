@@ -24,18 +24,16 @@
     "slug": "support-page",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.54%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 268,
     "timeDay": 271,
     "timeWeek": 266,
     "timeMonth": 260,
     "timeYear": 268,
-    "dailyMinutesDown": {
-      "2023-11-08": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Contact page",
@@ -512,18 +510,20 @@
     "url": "https://portal.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/portal.anduin.app.ico",
     "slug": "portal-public",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 158,
-    "timeDay": 114,
-    "timeWeek": 140,
-    "timeMonth": 169,
+    "timeDay": 138,
+    "timeWeek": 143,
+    "timeMonth": 168,
     "timeYear": 158,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-11-08": 0
+    }
   },
   {
     "name": "Portal Canary",
