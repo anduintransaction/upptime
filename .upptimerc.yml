@@ -58,10 +58,6 @@ sites:
       - 401
     assignees:
       - victole-sec
-  - name: Test Secret Site
-    url: $SECRET_SITE
-    assignees:
-      - victole-sec
 
   - name: Gondor Public
     url: "https://deals.anduintransact.com/api/v3/standalone-app"
