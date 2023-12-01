@@ -511,19 +511,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.48%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 162,
     "timeDay": 115,
     "timeWeek": 183,
     "timeMonth": 151,
     "timeYear": 162,
-    "dailyMinutesDown": {
-      "2023-12-01": 8
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Portal Internal",
@@ -548,18 +546,20 @@
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 156,
-    "timeDay": 137,
-    "timeWeek": 130,
+    "time": 155,
+    "timeDay": 131,
+    "timeWeek": 129,
     "timeMonth": 134,
-    "timeYear": 156,
-    "dailyMinutesDown": {}
+    "timeYear": 155,
+    "dailyMinutesDown": {
+      "2023-12-01": 0
+    }
   },
   {
     "name": "Portal Minas Tirith",
