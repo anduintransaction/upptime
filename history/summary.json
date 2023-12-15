@@ -202,19 +202,19 @@
     "url": "$GONDOR_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-demo",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 160,
-    "timeDay": 157,
-    "timeWeek": 153,
-    "timeMonth": 161,
-    "timeYear": 160,
+    "time": 159,
+    "timeDay": 135,
+    "timeWeek": 148,
+    "timeMonth": 159,
+    "timeYear": 159,
     "dailyMinutesDown": {
-      "2023-12-15": 0
+      "2023-12-15": 5
     }
   },
   {
@@ -276,19 +276,19 @@
     "url": "$SYNCGATEWAY_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sync-gateway-gondor-canary",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 150,
-    "timeDay": 150,
-    "timeWeek": 134,
-    "timeMonth": 157,
-    "timeYear": 150,
+    "time": 149,
+    "timeDay": 131,
+    "timeWeek": 130,
+    "timeMonth": 155,
+    "timeYear": 149,
     "dailyMinutesDown": {
-      "2023-12-15": 0
+      "2023-12-15": 5
     }
   },
   {
