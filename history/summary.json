@@ -58,19 +58,19 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.57%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 215,
-    "timeDay": 83,
-    "timeWeek": 176,
-    "timeMonth": 292,
+    "timeDay": 115,
+    "timeWeek": 172,
+    "timeMonth": 287,
     "timeYear": 215,
     "dailyMinutesDown": {
-      "2023-12-25": 0
+      "2023-12-25": 6
     }
   },
   {
