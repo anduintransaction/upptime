@@ -274,18 +274,20 @@
     "url": "$SYNCGATEWAY_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sync-gateway-gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 146,
-    "timeDay": 194,
-    "timeWeek": 148,
-    "timeMonth": 134,
-    "timeYear": 146,
-    "dailyMinutesDown": {}
+    "time": 145,
+    "timeDay": 136,
+    "timeWeek": 139,
+    "timeMonth": 132,
+    "timeYear": 145,
+    "dailyMinutesDown": {
+      "2024-01-10": 0
+    }
   },
   {
     "name": "SyncGateway Gondor Internal",
@@ -328,18 +330,20 @@
     "url": "$SYNCGATEWAY_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sync-gateway-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 139,
-    "timeDay": 168,
-    "timeWeek": 124,
-    "timeMonth": 123,
+    "timeDay": 117,
+    "timeWeek": 117,
+    "timeMonth": 121,
     "timeYear": 139,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-10": 0
+    }
   },
   {
     "name": "DocServer Gondor Public",
