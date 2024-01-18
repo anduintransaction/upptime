@@ -99,9 +99,6 @@ sites:
 
   - name: SyncGateway Gondor Canary
     url: $SYNCGATEWAY_CANARY_ANDUINTRANSACT
-        
-  - name: SyncGateway Gondor Internal
-    url: $SYNCGATEWAY_INTERNAL_ANDUINTRANSACT
 
   - name: SyncGateway Gondor Demo
     url: $SYNCGATEWAY_DEMO_ANDUINTRANSACT
