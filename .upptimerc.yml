@@ -94,18 +94,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
 
-  - name: SyncGateway Gondor Public
-    url: https://sync.anduintransact.com
-
-  - name: SyncGateway Gondor Canary
-    url: $SYNCGATEWAY_CANARY_ANDUINTRANSACT
-
-  - name: SyncGateway Gondor Demo
-    url: $SYNCGATEWAY_DEMO_ANDUINTRANSACT
-
-  - name: SyncGateway Minas Tirith
-    url: $SYNCGATEWAY_MINAS_ANDUINTRANSACT
-
   - name: DocServer Gondor Public
     url: https://doc-server.anduintransact.com/web-apps/apps/api/documents/api.js
 
