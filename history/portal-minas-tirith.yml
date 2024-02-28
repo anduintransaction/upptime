@@ -1,7 +1,7 @@
 url: $PORTAL_MINAS_APP
-status: down
-code: 503
-responseTime: 92
-lastUpdated: 2024-02-28T07:42:44.489Z
+status: up
+code: 200
+responseTime: 107
+lastUpdated: 2024-02-28T07:48:59.873Z
 startTime: 2023-09-22T09:34:56.295Z
 generator: Upptime <https://github.com/upptime/upptime>
