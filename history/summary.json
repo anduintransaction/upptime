@@ -276,18 +276,16 @@
     "slug": "doc-server-gondor-canary",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.56%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 148,
     "timeDay": 129,
     "timeWeek": 133,
     "timeMonth": 127,
     "timeYear": 148,
-    "dailyMinutesDown": {
-      "2024-02-28": 6
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "DocServer Gondor Internal",
@@ -422,19 +420,19 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 151,
-    "timeDay": 152,
-    "timeWeek": 132,
-    "timeMonth": 123,
-    "timeYear": 151,
+    "time": 150,
+    "timeDay": 139,
+    "timeWeek": 128,
+    "timeMonth": 122,
+    "timeYear": 150,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 7
     }
   },
   {
