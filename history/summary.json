@@ -274,19 +274,19 @@
     "url": "$DOCSERVER_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-canary",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 148,
-    "timeDay": 124,
-    "timeWeek": 131,
-    "timeMonth": 126,
+    "timeDay": 129,
+    "timeWeek": 133,
+    "timeMonth": 127,
     "timeYear": 148,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 6
     }
   },
   {
@@ -422,18 +422,20 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 151,
-    "timeDay": 170,
-    "timeWeek": 136,
-    "timeMonth": 124,
+    "timeDay": 152,
+    "timeWeek": 132,
+    "timeMonth": 123,
     "timeYear": 151,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   },
   {
     "name": "Portal Internal",
