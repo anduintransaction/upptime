@@ -421,38 +421,36 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.10%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 150,
     "timeDay": 136,
     "timeWeek": 129,
     "timeMonth": 123,
     "timeYear": 150,
-    "dailyMinutesDown": {
-      "2024-02-28": 13
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Portal Internal",
     "url": "$PORTAL_INTERNAL_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-internal",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 142,
-    "timeDay": 128,
-    "timeWeek": 141,
+    "timeDay": 125,
+    "timeWeek": 139,
     "timeMonth": 133,
     "timeYear": 142,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 6
     }
   },
   {
@@ -478,17 +476,19 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 141,
-    "timeDay": 98,
-    "timeWeek": 119,
-    "timeMonth": 124,
-    "timeYear": 141,
-    "dailyMinutesDown": {}
+    "time": 199,
+    "timeDay": 2596,
+    "timeWeek": 1116,
+    "timeMonth": 401,
+    "timeYear": 199,
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   }
 ]
