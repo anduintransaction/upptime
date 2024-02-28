@@ -328,18 +328,20 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 140,
-    "timeDay": 241,
-    "timeWeek": 153,
-    "timeMonth": 138,
-    "timeYear": 140,
-    "dailyMinutesDown": {}
+    "time": 141,
+    "timeDay": 230,
+    "timeWeek": 161,
+    "timeMonth": 141,
+    "timeYear": 141,
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   },
   {
     "name": "Board Consent",
@@ -420,18 +422,20 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 150,
-    "timeDay": 123,
-    "timeWeek": 119,
-    "timeMonth": 119,
-    "timeYear": 150,
-    "dailyMinutesDown": {}
+    "time": 151,
+    "timeDay": 175,
+    "timeWeek": 132,
+    "timeMonth": 123,
+    "timeYear": 151,
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   },
   {
     "name": "Portal Internal",
