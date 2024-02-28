@@ -420,19 +420,19 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 150,
-    "timeDay": 133,
-    "timeWeek": 126,
-    "timeMonth": 122,
+    "timeDay": 145,
+    "timeWeek": 132,
+    "timeMonth": 124,
     "timeYear": 150,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 6
     }
   },
   {
