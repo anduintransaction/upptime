@@ -1,7 +1,7 @@
 url: $PORTAL_INTERNAL_APP
-status: down
-code: 502
-responseTime: 82
-lastUpdated: 2024-02-28T07:09:31.806Z
+status: up
+code: 200
+responseTime: 131
+lastUpdated: 2024-02-28T07:17:16.762Z
 startTime: 2023-09-22T09:34:55.096Z
 generator: Upptime <https://github.com/upptime/upptime>
