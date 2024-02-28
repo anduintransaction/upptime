@@ -274,18 +274,20 @@
     "url": "$DOCSERVER_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 149,
-    "timeDay": 118,
-    "timeWeek": 133,
-    "timeMonth": 126,
+    "timeDay": 146,
+    "timeWeek": 138,
+    "timeMonth": 128,
     "timeYear": 149,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   },
   {
     "name": "DocServer Gondor Internal",
@@ -330,18 +332,16 @@
     "slug": "doc-server-minas-tirith",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.49%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 141,
     "timeDay": 187,
     "timeWeek": 154,
     "timeMonth": 140,
     "timeYear": 141,
-    "dailyMinutesDown": {
-      "2024-02-28": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Board Consent",
@@ -424,18 +424,16 @@
     "slug": "portal-canary",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.49%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 151,
     "timeDay": 170,
     "timeWeek": 136,
     "timeMonth": 124,
     "timeYear": 151,
-    "dailyMinutesDown": {
-      "2024-02-28": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Portal Internal",
