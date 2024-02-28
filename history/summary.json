@@ -438,19 +438,19 @@
     "url": "$PORTAL_INTERNAL_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-internal",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 142,
-    "timeDay": 128,
-    "timeWeek": 144,
+    "timeDay": 129,
+    "timeWeek": 143,
     "timeMonth": 134,
     "timeYear": 142,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 8
     }
   },
   {
