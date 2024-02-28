@@ -238,18 +238,20 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 161,
-    "timeDay": 99,
-    "timeWeek": 130,
-    "timeMonth": 130,
-    "timeYear": 161,
-    "dailyMinutesDown": {}
+    "time": 179,
+    "timeDay": 1621,
+    "timeWeek": 507,
+    "timeMonth": 219,
+    "timeYear": 179,
+    "dailyMinutesDown": {
+      "2024-02-28": 0
+    }
   },
   {
     "name": "DocServer Gondor Public",
@@ -476,17 +478,15 @@
     "slug": "portal-minas-tirith",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.51%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 199,
     "timeDay": 2109,
     "timeWeek": 1029,
     "timeMonth": 394,
     "timeYear": 199,
-    "dailyMinutesDown": {
-      "2024-02-28": 7
-    }
+    "dailyMinutesDown": {}
   }
 ]
