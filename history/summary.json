@@ -238,19 +238,19 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.58%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 179,
-    "timeDay": 1621,
-    "timeWeek": 507,
-    "timeMonth": 219,
+    "timeDay": 1130,
+    "timeWeek": 467,
+    "timeMonth": 217,
     "timeYear": 179,
     "dailyMinutesDown": {
-      "2024-02-28": 0
+      "2024-02-28": 6
     }
   },
   {
