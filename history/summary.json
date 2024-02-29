@@ -294,18 +294,16 @@
     "slug": "doc-server-gondor-internal",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.28%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 148,
     "timeDay": 145,
     "timeWeek": 143,
     "timeMonth": 160,
     "timeYear": 148,
-    "dailyMinutesDown": {
-      "2024-02-29": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "DocServer Gondor Demo",
@@ -458,19 +456,19 @@
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 151,
-    "timeDay": 221,
-    "timeWeek": 144,
-    "timeMonth": 130,
+    "timeDay": 204,
+    "timeWeek": 147,
+    "timeMonth": 131,
     "timeYear": 151,
     "dailyMinutesDown": {
-      "2024-02-29": 1
+      "2024-02-29": 8
     }
   },
   {
