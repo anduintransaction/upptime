@@ -1,7 +1,7 @@
 url: https://deals.anduintransact.com/api/v3/standalone-app
-status: down
-code: 503
-responseTime: 156
-lastUpdated: 2024-03-07T05:27:37.714Z
+status: up
+code: 200
+responseTime: 178
+lastUpdated: 2024-03-07T05:33:05.547Z
 startTime: 2023-09-22T09:34:44.351Z
 generator: Upptime <https://github.com/upptime/upptime>
