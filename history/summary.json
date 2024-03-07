@@ -58,19 +58,19 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 190,
-    "timeDay": 93,
-    "timeWeek": 137,
-    "timeMonth": 149,
+    "timeDay": 111,
+    "timeWeek": 140,
+    "timeMonth": 150,
     "timeYear": 190,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -78,19 +78,19 @@
     "url": "https://fundsub.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/fundsub.anduin.app.ico",
     "slug": "fund-sub-product-status",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 162,
-    "timeDay": 104,
-    "timeWeek": 132,
-    "timeMonth": 133,
+    "timeDay": 102,
+    "timeWeek": 129,
+    "timeMonth": 132,
     "timeYear": 162,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -98,19 +98,19 @@
     "url": "https://dataroom.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/dataroom.anduin.app.ico",
     "slug": "dataroom-product-status",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 145,
-    "timeWeek": 154,
-    "timeMonth": 137,
+    "timeDay": 135,
+    "timeWeek": 149,
+    "timeMonth": 136,
     "timeYear": 165,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -118,19 +118,19 @@
     "url": "https://sign.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/sign.anduin.app.ico",
     "slug": "e-sign-product-status",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 152,
-    "timeDay": 107,
-    "timeWeek": 130,
-    "timeMonth": 125,
-    "timeYear": 152,
+    "time": 153,
+    "timeDay": 128,
+    "timeWeek": 138,
+    "timeMonth": 127,
+    "timeYear": 153,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -138,19 +138,19 @@
     "url": "https://api.anduin.app/api/v1/fundsub/docs/",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "res-tful-api-status",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 164,
-    "timeDay": 155,
-    "timeWeek": 152,
-    "timeMonth": 141,
+    "timeDay": 163,
+    "timeWeek": 156,
+    "timeMonth": 143,
     "timeYear": 164,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -176,19 +176,19 @@
     "url": "https://deals.anduintransact.com/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "gondor-public",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 163,
-    "timeDay": 145,
-    "timeWeek": 152,
+    "time": 162,
+    "timeDay": 143,
+    "timeWeek": 150,
     "timeMonth": 142,
-    "timeYear": 163,
+    "timeYear": 162,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 6
     }
   },
   {
@@ -412,19 +412,19 @@
     "url": "https://portal.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/portal.anduin.app.ico",
     "slug": "portal-public",
-    "status": "down",
+    "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.93%",
     "time": 141,
-    "timeDay": 129,
-    "timeWeek": 158,
-    "timeMonth": 139,
+    "timeDay": 122,
+    "timeWeek": 152,
+    "timeMonth": 138,
     "timeYear": 141,
     "dailyMinutesDown": {
-      "2024-03-07": 0,
+      "2024-03-07": 6,
       "2023-11-09": 158
     }
   },
