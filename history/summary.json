@@ -58,9 +58,9 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,79 +69,89 @@
     "timeWeek": 153,
     "timeMonth": 154,
     "timeYear": 191,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "FundSub product status",
     "url": "https://fundsub.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/fundsub.anduin.app.ico",
     "slug": "fund-sub-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 163,
-    "timeDay": 104,
-    "timeWeek": 145,
-    "timeMonth": 136,
+    "timeDay": 96,
+    "timeWeek": 138,
+    "timeMonth": 135,
     "timeYear": 163,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "Dataroom product status",
     "url": "https://dataroom.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/dataroom.anduin.app.ico",
     "slug": "dataroom-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 193,
-    "timeWeek": 165,
+    "timeDay": 156,
+    "timeWeek": 159,
     "timeMonth": 138,
     "timeYear": 165,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "eSign product status",
     "url": "https://sign.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/sign.anduin.app.ico",
     "slug": "e-sign-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 153,
-    "timeDay": 134,
-    "timeWeek": 144,
+    "timeDay": 124,
+    "timeWeek": 140,
     "timeMonth": 127,
     "timeYear": 153,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "RESTful API status",
     "url": "https://api.anduin.app/api/v1/fundsub/docs/",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "res-tful-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 164,
-    "timeDay": 192,
-    "timeWeek": 156,
-    "timeMonth": 141,
+    "timeDay": 159,
+    "timeWeek": 152,
+    "timeMonth": 140,
     "timeYear": 164,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "GraphQL API status",
@@ -166,18 +176,20 @@
     "url": "https://deals.anduintransact.com/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 163,
-    "timeDay": 106,
-    "timeWeek": 149,
+    "timeDay": 131,
+    "timeWeek": 150,
     "timeMonth": 141,
     "timeYear": 163,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "Gondor Internal",
@@ -300,7 +312,7 @@
     "uptimeYear": "100.00%",
     "time": 151,
     "timeDay": 119,
-    "timeWeek": 192,
+    "timeWeek": 206,
     "timeMonth": 162,
     "timeYear": 151,
     "dailyMinutesDown": {}
@@ -400,18 +412,19 @@
     "url": "https://portal.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/portal.anduin.app.ico",
     "slug": "portal-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.93%",
     "time": 141,
-    "timeDay": 104,
-    "timeWeek": 167,
-    "timeMonth": 139,
+    "timeDay": 92,
+    "timeWeek": 156,
+    "timeMonth": 137,
     "timeYear": 141,
     "dailyMinutesDown": {
+      "2024-03-07": 0,
       "2023-11-09": 158
     }
   },
@@ -464,7 +477,7 @@
     "uptimeYear": "100.00%",
     "time": 152,
     "timeDay": 115,
-    "timeWeek": 183,
+    "timeWeek": 180,
     "timeMonth": 144,
     "timeYear": 152,
     "dailyMinutesDown": {}
