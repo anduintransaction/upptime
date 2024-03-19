@@ -229,7 +229,7 @@
     "time": 147,
     "timeDay": 177,
     "timeWeek": 121,
-    "timeMonth": 136,
+    "timeMonth": 135,
     "timeYear": 147,
     "dailyMinutesDown": {}
   },
@@ -420,18 +420,20 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 149,
-    "timeDay": 71,
-    "timeWeek": 129,
-    "timeMonth": 134,
+    "timeDay": 124,
+    "timeWeek": 135,
+    "timeMonth": 135,
     "timeYear": 149,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-19": 0
+    }
   },
   {
     "name": "Portal Internal",
