@@ -310,18 +310,20 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 140,
-    "timeDay": 105,
-    "timeWeek": 137,
-    "timeMonth": 133,
+    "timeDay": 143,
+    "timeWeek": 143,
+    "timeMonth": 134,
     "timeYear": 140,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-21": 1
+    }
   },
   {
     "name": "DocServer Minas Tirith",
@@ -346,18 +348,20 @@
     "url": "$BOARDCONSENT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "board-consent",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 161,
-    "timeDay": 89,
-    "timeWeek": 180,
-    "timeMonth": 158,
-    "timeYear": 161,
-    "dailyMinutesDown": {}
+    "time": 162,
+    "timeDay": 167,
+    "timeWeek": 188,
+    "timeMonth": 161,
+    "timeYear": 162,
+    "dailyMinutesDown": {
+      "2024-03-21": 1
+    }
   },
   {
     "name": "FundSub website",
