@@ -240,10 +240,10 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 176,
@@ -251,7 +251,9 @@
     "timeWeek": 172,
     "timeMonth": 153,
     "timeYear": 176,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 1
+    }
   },
   {
     "name": "DocServer Gondor Public",
@@ -332,10 +334,10 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 141,
@@ -343,7 +345,9 @@
     "timeWeek": 148,
     "timeMonth": 146,
     "timeYear": 141,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 1
+    }
   },
   {
     "name": "Board Consent",
@@ -481,10 +485,10 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 188,
@@ -492,6 +496,8 @@
     "timeWeek": 155,
     "timeMonth": 129,
     "timeYear": 188,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 1
+    }
   }
 ]
