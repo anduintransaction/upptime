@@ -220,18 +220,20 @@
     "url": "$GONDOR_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 148,
-    "timeDay": 198,
-    "timeWeek": 149,
-    "timeMonth": 145,
+    "timeDay": 260,
+    "timeWeek": 171,
+    "timeMonth": 151,
     "timeYear": 148,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 0
+    }
   },
   {
     "name": "Minas Tirith",
@@ -274,18 +276,20 @@
     "url": "$DOCSERVER_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 149,
-    "timeDay": 109,
+    "timeDay": 125,
     "timeWeek": 137,
     "timeMonth": 156,
     "timeYear": 149,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 0
+    }
   },
   {
     "name": "DocServer Gondor Internal",
@@ -420,18 +424,19 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.99%",
-    "time": 150,
-    "timeDay": 113,
-    "timeWeek": 170,
-    "timeMonth": 145,
-    "timeYear": 150,
+    "time": 152,
+    "timeDay": 293,
+    "timeWeek": 208,
+    "timeMonth": 155,
+    "timeYear": 152,
     "dailyMinutesDown": {
+      "2024-03-29": 0,
       "2024-03-19": 27
     }
   },
