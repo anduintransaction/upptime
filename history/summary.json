@@ -222,9 +222,9 @@
     "slug": "gondor-canary",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.52%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 148,
     "timeDay": 260,
@@ -232,7 +232,7 @@
     "timeMonth": 151,
     "timeYear": 148,
     "dailyMinutesDown": {
-      "2024-03-29": 0
+      "2024-03-29": 7
     }
   },
   {
@@ -240,18 +240,20 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 175,
-    "timeDay": 122,
-    "timeWeek": 138,
-    "timeMonth": 144,
+    "timeDay": 216,
+    "timeWeek": 160,
+    "timeMonth": 149,
     "timeYear": 175,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 0
+    }
   },
   {
     "name": "DocServer Gondor Public",
@@ -278,9 +280,9 @@
     "slug": "doc-server-gondor-canary",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.52%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 149,
     "timeDay": 125,
@@ -288,7 +290,7 @@
     "timeMonth": 156,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2024-03-29": 0
+      "2024-03-29": 7
     }
   },
   {
@@ -332,18 +334,20 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 141,
-    "timeDay": 104,
-    "timeWeek": 131,
-    "timeMonth": 142,
+    "timeDay": 137,
+    "timeWeek": 136,
+    "timeMonth": 143,
     "timeYear": 141,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-29": 0
+    }
   },
   {
     "name": "Board Consent",
@@ -426,9 +430,9 @@
     "slug": "portal-canary",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.94%",
+    "uptimeDay": "99.51%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.99%",
     "time": 152,
     "timeDay": 293,
@@ -436,7 +440,7 @@
     "timeMonth": 155,
     "timeYear": 152,
     "dailyMinutesDown": {
-      "2024-03-29": 0,
+      "2024-03-29": 7,
       "2024-03-19": 27
     }
   },
@@ -481,17 +485,19 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 187,
-    "timeDay": 115,
-    "timeWeek": 135,
-    "timeMonth": 123,
-    "timeYear": 187,
-    "dailyMinutesDown": {}
+    "time": 188,
+    "timeDay": 176,
+    "timeWeek": 147,
+    "timeMonth": 127,
+    "timeYear": 188,
+    "dailyMinutesDown": {
+      "2024-03-29": 0
+    }
   }
 ]
