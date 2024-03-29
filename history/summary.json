@@ -240,19 +240,19 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 176,
-    "timeDay": 234,
-    "timeWeek": 172,
-    "timeMonth": 153,
+    "timeDay": 230,
+    "timeWeek": 177,
+    "timeMonth": 155,
     "timeYear": 176,
     "dailyMinutesDown": {
-      "2024-03-29": 1
+      "2024-03-29": 10
     }
   },
   {
@@ -307,7 +307,7 @@
     "time": 150,
     "timeDay": 123,
     "timeWeek": 171,
-    "timeMonth": 161,
+    "timeMonth": 162,
     "timeYear": 150,
     "dailyMinutesDown": {}
   },
@@ -334,19 +334,19 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 141,
-    "timeDay": 171,
-    "timeWeek": 148,
-    "timeMonth": 146,
-    "timeYear": 141,
+    "time": 142,
+    "timeDay": 196,
+    "timeWeek": 160,
+    "timeMonth": 150,
+    "timeYear": 142,
     "dailyMinutesDown": {
-      "2024-03-29": 1
+      "2024-03-29": 10
     }
   },
   {
@@ -485,19 +485,19 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.31%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 188,
-    "timeDay": 188,
-    "timeWeek": 155,
-    "timeMonth": 129,
+    "timeDay": 191,
+    "timeWeek": 159,
+    "timeMonth": 132,
     "timeYear": 188,
     "dailyMinutesDown": {
-      "2024-03-29": 1
+      "2024-03-29": 10
     }
   }
 ]
