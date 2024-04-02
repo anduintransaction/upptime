@@ -258,18 +258,20 @@
     "url": "https://doc-server.anduintransact.com/web-apps/apps/api/documents/api.js",
     "icon": "https://icons.duckduckgo.com/ip3/doc-server.anduintransact.com.ico",
     "slug": "doc-server-gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 166,
-    "timeDay": 105,
-    "timeWeek": 115,
+    "timeDay": 120,
+    "timeWeek": 118,
     "timeMonth": 121,
     "timeYear": 166,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-02": 1
+    }
   },
   {
     "name": "DocServer Gondor Canary",
