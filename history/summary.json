@@ -204,18 +204,20 @@
     "url": "$GONDOR_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 153,
-    "timeDay": 113,
-    "timeWeek": 180,
-    "timeMonth": 159,
+    "timeDay": 179,
+    "timeWeek": 188,
+    "timeMonth": 161,
     "timeYear": 153,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-15": 0
+    }
   },
   {
     "name": "Gondor Canary",
@@ -467,18 +469,20 @@
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 149,
-    "timeDay": 115,
-    "timeWeek": 146,
-    "timeMonth": 137,
-    "timeYear": 149,
-    "dailyMinutesDown": {}
+    "time": 150,
+    "timeDay": 241,
+    "timeWeek": 174,
+    "timeMonth": 144,
+    "timeYear": 150,
+    "dailyMinutesDown": {
+      "2024-04-15": 0
+    }
   },
   {
     "name": "Portal Minas Tirith",
