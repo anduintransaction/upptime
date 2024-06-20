@@ -1,7 +1,7 @@
 url: $GONDOR_INTERNAL_ANDUINTRANSACT
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-06-20T18:14:40.212Z
+status: up
+code: 200
+responseTime: 1873
+lastUpdated: 2024-06-20T18:26:47.535Z
 startTime: 2023-09-22T09:34:44.873Z
 generator: Upptime <https://github.com/upptime/upptime>
