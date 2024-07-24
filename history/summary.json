@@ -43,19 +43,19 @@
     "url": "https://anduintransact.com/contact",
     "icon": "https://icons.duckduckgo.com/ip3/anduintransact.com.ico",
     "slug": "contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.55%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 133,
-    "timeDay": 102,
-    "timeWeek": 131,
-    "timeMonth": 164,
+    "timeDay": 99,
+    "timeWeek": 127,
+    "timeMonth": 162,
     "timeYear": 133,
     "dailyMinutesDown": {
-      "2024-07-23": 6
+      "2024-07-23": 0
     }
   },
   {
