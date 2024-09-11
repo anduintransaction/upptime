@@ -95,7 +95,7 @@ sites:
     body: '{}'
 
   - name: DocServer Gondor Public
-    url: https://doc-server.anduin.app/web-apps/apps/api/documents/api.js
+    url: https://doc-server.anduintransact.com/web-apps/apps/api/documents/api.js
 
   - name: DocServer Gondor Canary
     url: $DOCSERVER_CANARY_ANDUINTRANSACT
