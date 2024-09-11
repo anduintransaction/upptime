@@ -93,8 +93,8 @@ sites:
   - name: DocServer Gondor Canary
     url: $DOCSERVER_CANARY_ANDUINTRANSACT
     headers:
-      - "CF-Access-Client-Id": 978b480599864a1f0a44f2f97deab748.access
-      - "CF-Access-Client-Secret": $CANARY_ENV_CF_TOKEN
+      - "CF-Access-Client-Id: 978b480599864a1f0a44f2f97deab748.access"
+      - "CF-Access-Client-Secret: $CANARY_ENV_CF_TOKEN"
 
   - name: DocServer Gondor Demo
     url: $DOCSERVER_DEMO_ANDUINTRANSACT
