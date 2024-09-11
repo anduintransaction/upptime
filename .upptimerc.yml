@@ -66,13 +66,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
 
-  - name: Gondor Internal
-    url: $GONDOR_INTERNAL_ANDUINTRANSACT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{}'
-    
   - name: Gondor Demo
     url: $GONDOR_DEMO_ANDUINTRANSACT
     method: POST
@@ -99,9 +92,6 @@ sites:
 
   - name: DocServer Gondor Canary
     url: $DOCSERVER_CANARY_ANDUINTRANSACT
-        
-  - name: DocServer Gondor Internal
-    url: $DOCSERVER_INTERNAL_ANDUINTRANSACT
 
   - name: DocServer Gondor Demo
     url: $DOCSERVER_DEMO_ANDUINTRANSACT
@@ -127,13 +117,6 @@ sites:
 
   - name: Portal Canary
     url: $PORTAL_CANARY_APP
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{}'
-        
-  - name: Portal Internal
-    url: $PORTAL_INTERNAL_APP
     method: POST
     headers:
       - "Content-Type: application/json"
