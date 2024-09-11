@@ -1,7 +1,7 @@
 url: $DOCSERVER_INTERNAL_ANDUINTRANSACT
-status: up
-code: 200
-responseTime: 481
-lastUpdated: 2024-09-10T23:02:52.369Z
+status: down
+code: 404
+responseTime: 462
+lastUpdated: 2024-09-11T06:27:26.236Z
 startTime: 2023-09-22T09:34:50.878Z
 generator: Upptime <https://github.com/upptime/upptime>
