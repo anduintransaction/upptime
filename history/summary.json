@@ -184,19 +184,19 @@
     "url": "$GONDOR_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-demo",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 222,
-    "timeDay": 436,
-    "timeWeek": 319,
-    "timeMonth": 279,
+    "timeDay": 346,
+    "timeWeek": 307,
+    "timeMonth": 276,
     "timeYear": 222,
     "dailyMinutesDown": {
-      "2024-09-16": 0
+      "2024-09-16": 5
     }
   },
   {
