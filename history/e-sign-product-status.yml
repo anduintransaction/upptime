@@ -1,7 +1,7 @@
 url: https://sign.anduin.app/api/v3/standalone-app
-status: down
-code: 404
-responseTime: 199
-lastUpdated: 2024-12-25T03:01:25.819Z
+status: up
+code: 200
+responseTime: 696
+lastUpdated: 2024-12-25T03:33:19.644Z
 startTime: 2023-09-06T10:49:48.718Z
 generator: Upptime <https://github.com/upptime/upptime>
