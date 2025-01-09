@@ -1,7 +1,7 @@
 url: $PORTAL_CANARY_APP
 status: up
 code: 200
-responseTime: 412
-lastUpdated: 2025-01-08T23:03:15.928Z
+responseTime: 180
+lastUpdated: 2025-01-09T23:03:16.354Z
 startTime: 2023-09-22T09:34:54.583Z
 generator: Upptime <https://github.com/upptime/upptime>
