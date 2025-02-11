@@ -46,9 +46,12 @@ sites:
       - msongd
       - victole-sec
   - name: RESTful API status
-    url: https://api.anduin.app/api/v1/fundsub/docs/
+    url: https://api.anduin.app/api/v1/fundsub/
+    expectedStatusCodes:
+      - 401
     assignees:
       - victole-sec
+      
   - name: GraphQL API status
     url: https://api.anduin.app/graphql
     headers:
