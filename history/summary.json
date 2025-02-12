@@ -312,19 +312,19 @@
     "url": "$BOARDCONSENT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "board-consent",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.10%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 182,
-    "timeDay": 174,
-    "timeWeek": 178,
-    "timeMonth": 212,
+    "timeDay": 171,
+    "timeWeek": 177,
+    "timeMonth": 211,
     "timeYear": 189,
     "dailyMinutesDown": {
-      "2025-02-12": 1
+      "2025-02-12": 13
     }
   },
   {
