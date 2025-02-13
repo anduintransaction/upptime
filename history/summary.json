@@ -186,54 +186,60 @@
     "url": "$GONDOR_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 258,
-    "timeDay": 175,
-    "timeWeek": 243,
+    "time": 259,
+    "timeDay": 319,
+    "timeWeek": 268,
     "timeMonth": 460,
-    "timeYear": 292,
-    "dailyMinutesDown": {}
+    "timeYear": 293,
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   },
   {
     "name": "Gondor Canary",
     "url": "$GONDOR_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 244,
-    "timeDay": 201,
-    "timeWeek": 277,
-    "timeMonth": 358,
-    "timeYear": 277,
-    "dailyMinutesDown": {}
+    "time": 247,
+    "timeDay": 848,
+    "timeWeek": 413,
+    "timeMonth": 392,
+    "timeYear": 281,
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   },
   {
     "name": "Minas Tirith",
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 240,
-    "timeDay": 249,
-    "timeWeek": 242,
+    "timeDay": 298,
+    "timeWeek": 254,
     "timeMonth": 350,
     "timeYear": 265,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   },
   {
     "name": "DocServer Gondor Public",
@@ -384,53 +390,59 @@
     "url": "$PORTAL_CANARY_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 219,
-    "timeDay": 231,
-    "timeWeek": 223,
-    "timeMonth": 298,
+    "timeDay": 224,
+    "timeWeek": 222,
+    "timeMonth": 296,
     "timeYear": 240,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   },
   {
     "name": "Portal Demo",
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 221,
-    "timeDay": 166,
-    "timeWeek": 241,
-    "timeMonth": 307,
+    "timeDay": 180,
+    "timeWeek": 236,
+    "timeMonth": 303,
     "timeYear": 246,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   },
   {
     "name": "Portal Minas Tirith",
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 231,
-    "timeDay": 182,
-    "timeWeek": 257,
-    "timeMonth": 315,
+    "timeDay": 174,
+    "timeWeek": 247,
+    "timeMonth": 310,
     "timeYear": 260,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-13": 1
+    }
   }
 ]
