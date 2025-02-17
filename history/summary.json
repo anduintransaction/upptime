@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 237,
     "timeDay": 214,
-    "timeWeek": 195,
+    "timeWeek": 192,
     "timeMonth": 203,
     "timeYear": 240,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 378,
     "timeDay": 434,
-    "timeWeek": 453,
+    "timeWeek": 451,
     "timeMonth": 429,
     "timeYear": 415,
     "dailyMinutesDown": {}
@@ -320,18 +320,16 @@
     "slug": "board-consent",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.54%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 182,
     "timeDay": 295,
     "timeWeek": 152,
     "timeMonth": 193,
     "timeYear": 189,
-    "dailyMinutesDown": {
-      "2025-02-16": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "FundSub website",
