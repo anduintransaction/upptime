@@ -1,7 +1,7 @@
 url: $GONDOR_CANARY_ANDUINTRANSACT
-status: up
-code: 200
-responseTime: 265
-lastUpdated: 2025-02-17T23:03:00.155Z
+status: down
+code: 404
+responseTime: 422
+lastUpdated: 2025-02-18T05:56:27.917Z
 startTime: 2023-09-22T09:34:46.008Z
 generator: Upptime <https://github.com/upptime/upptime>
