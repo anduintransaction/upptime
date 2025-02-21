@@ -319,18 +319,20 @@
     "url": "$BOARDCONSENT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "board-consent",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 182,
-    "timeDay": 131,
-    "timeWeek": 182,
-    "timeMonth": 191,
+    "timeDay": 175,
+    "timeWeek": 185,
+    "timeMonth": 192,
     "timeYear": 190,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-21": 1
+    }
   },
   {
     "name": "FundSub website",
