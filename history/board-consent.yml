@@ -1,7 +1,7 @@
 url: $BOARDCONSENT
-status: down
-code: 403
-responseTime: 66
-lastUpdated: 2025-03-05T15:43:06.973Z
+status: up
+code: 200
+responseTime: 92
+lastUpdated: 2025-03-05T15:49:21.717Z
 startTime: 2023-09-22T09:34:52.471Z
 generator: Upptime <https://github.com/upptime/upptime>
