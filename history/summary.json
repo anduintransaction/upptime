@@ -14,7 +14,7 @@
     "timeDay": 272,
     "timeWeek": 251,
     "timeMonth": 231,
-    "timeYear": 242,
+    "timeYear": 243,
     "dailyMinutesDown": {}
   },
   {
@@ -160,7 +160,7 @@
     "timeDay": 371,
     "timeWeek": 170,
     "timeMonth": 119,
-    "timeYear": 136,
+    "timeYear": 135,
     "dailyMinutesDown": {}
   },
   {
@@ -178,7 +178,7 @@
     "timeDay": 274,
     "timeWeek": 393,
     "timeMonth": 317,
-    "timeYear": 250,
+    "timeYear": 251,
     "dailyMinutesDown": {}
   },
   {
@@ -196,7 +196,7 @@
     "timeDay": 311,
     "timeWeek": 430,
     "timeMonth": 475,
-    "timeYear": 330,
+    "timeYear": 331,
     "dailyMinutesDown": {
       "2025-02-13": 7
     }
@@ -208,17 +208,17 @@
     "slug": "gondor-canary",
     "status": "down",
     "uptime": "99.88%",
-    "uptimeDay": "36.19%",
-    "uptimeWeek": "90.88%",
-    "uptimeMonth": "97.90%",
-    "uptimeYear": "99.82%",
+    "uptimeDay": "35.91%",
+    "uptimeWeek": "90.84%",
+    "uptimeMonth": "97.89%",
+    "uptimeYear": "99.81%",
     "time": 270,
     "timeDay": 275,
     "timeWeek": 397,
     "timeMonth": 360,
     "timeYear": 310,
     "dailyMinutesDown": {
-      "2025-04-08": 919,
+      "2025-04-08": 923,
       "2025-02-18": 45,
       "2025-02-13": 7
     }
@@ -238,7 +238,7 @@
     "timeDay": 310,
     "timeWeek": 429,
     "timeMonth": 323,
-    "timeYear": 281,
+    "timeYear": 280,
     "dailyMinutesDown": {
       "2025-02-13": 7
     }
@@ -266,19 +266,19 @@
     "url": "$DOCSERVER_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "94.40%",
-    "uptimeWeek": "99.20%",
-    "uptimeMonth": "99.82%",
+    "uptimeDay": "94.36%",
+    "uptimeWeek": "99.19%",
+    "uptimeMonth": "99.81%",
     "uptimeYear": "99.98%",
-    "time": 270,
-    "timeDay": 289,
-    "timeWeek": 290,
-    "timeMonth": 230,
-    "timeYear": 300,
+    "time": 271,
+    "timeDay": 300,
+    "timeWeek": 298,
+    "timeMonth": 236,
+    "timeYear": 299,
     "dailyMinutesDown": {
-      "2025-04-08": 81
+      "2025-04-08": 82
     }
   },
   {
@@ -314,7 +314,7 @@
     "timeDay": 156,
     "timeWeek": 282,
     "timeMonth": 189,
-    "timeYear": 199,
+    "timeYear": 198,
     "dailyMinutesDown": {}
   },
   {
@@ -402,17 +402,17 @@
     "slug": "portal-canary",
     "status": "down",
     "uptime": "99.88%",
-    "uptimeDay": "36.18%",
-    "uptimeWeek": "90.88%",
-    "uptimeMonth": "97.90%",
-    "uptimeYear": "99.82%",
+    "uptimeDay": "35.89%",
+    "uptimeWeek": "90.84%",
+    "uptimeMonth": "97.89%",
+    "uptimeYear": "99.81%",
     "time": 238,
     "timeDay": 331,
     "timeWeek": 399,
     "timeMonth": 329,
     "timeYear": 267,
     "dailyMinutesDown": {
-      "2025-04-08": 919,
+      "2025-04-08": 923,
       "2025-02-18": 45,
       "2025-02-13": 7
     }
@@ -432,7 +432,7 @@
     "timeDay": 346,
     "timeWeek": 408,
     "timeMonth": 333,
-    "timeYear": 271,
+    "timeYear": 272,
     "dailyMinutesDown": {
       "2025-02-13": 7
     }
