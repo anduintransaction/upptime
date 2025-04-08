@@ -208,17 +208,17 @@
     "slug": "gondor-canary",
     "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "55.00%",
-    "uptimeWeek": "93.57%",
-    "uptimeMonth": "98.52%",
-    "uptimeYear": "99.87%",
+    "uptimeDay": "54.23%",
+    "uptimeWeek": "93.46%",
+    "uptimeMonth": "98.50%",
+    "uptimeYear": "99.86%",
     "time": 270,
     "timeDay": 467,
     "timeWeek": 387,
     "timeMonth": 362,
     "timeYear": 310,
     "dailyMinutesDown": {
-      "2025-04-08": 648,
+      "2025-04-08": 659,
       "2025-02-18": 45,
       "2025-02-13": 7
     }
@@ -266,19 +266,19 @@
     "url": "$DOCSERVER_CANARY_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-canary",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "98.99%",
-    "uptimeWeek": "99.86%",
-    "uptimeMonth": "99.97%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 267,
-    "timeDay": 389,
+    "timeDay": 380,
     "timeWeek": 286,
-    "timeMonth": 210,
+    "timeMonth": 212,
     "timeYear": 301,
     "dailyMinutesDown": {
-      "2025-04-08": 15
+      "2025-04-08": 0
     }
   },
   {
@@ -402,17 +402,17 @@
     "slug": "portal-canary",
     "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "54.99%",
-    "uptimeWeek": "93.57%",
-    "uptimeMonth": "98.52%",
-    "uptimeYear": "99.87%",
+    "uptimeDay": "54.22%",
+    "uptimeWeek": "93.46%",
+    "uptimeMonth": "98.49%",
+    "uptimeYear": "99.86%",
     "time": 237,
     "timeDay": 476,
     "timeWeek": 375,
     "timeMonth": 329,
     "timeYear": 267,
     "dailyMinutesDown": {
-      "2025-04-08": 648,
+      "2025-04-08": 659,
       "2025-02-18": 45,
       "2025-02-13": 7
     }
