@@ -1,7 +1,7 @@
 url: $DOCSERVER_CANARY_ANDUINTRANSACT
-status: up
-code: 200
-responseTime: 242
-lastUpdated: 2025-04-08T23:03:12.392Z
+status: down
+code: 404
+responseTime: 514
+lastUpdated: 2025-04-08T23:07:09.660Z
 startTime: 2023-09-22T09:34:50.386Z
 generator: Upptime <https://github.com/upptime/upptime>
