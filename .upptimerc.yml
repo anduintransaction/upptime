@@ -76,13 +76,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
         
-  - name: Gondor Canary
-    url: $GONDOR_CANARY_ANDUINTRANSACT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{}'
-
   - name: Minas Tirith
     url: $GONDOR_MINAS_ANDUINTRANSACT
     method: POST
@@ -92,12 +85,6 @@ sites:
 
   - name: DocServer Gondor Public
     url: https://doc-server.anduin.app/web-apps/apps/api/documents/api.js
-
-  - name: DocServer Gondor Canary
-    url: $DOCSERVER_CANARY_ANDUINTRANSACT
-    headers:
-      - "CF-Access-Client-Id: 978b480599864a1f0a44f2f97deab748.access"
-      - "CF-Access-Client-Secret: $CANARY_ENV_CF_TOKEN"
 
   - name: DocServer Gondor Demo
     url: $DOCSERVER_DEMO_ANDUINTRANSACT
@@ -116,13 +103,6 @@ sites:
 
   - name: Portal Public
     url: https://portal.anduin.app/api/v3/standalone-app
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{}'
-
-  - name: Portal Canary
-    url: $PORTAL_CANARY_APP
     method: POST
     headers:
       - "Content-Type: application/json"
