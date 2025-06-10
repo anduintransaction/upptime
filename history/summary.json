@@ -22,18 +22,20 @@
     "url": "https://support.anduintransact.com/",
     "icon": "https://icons.duckduckgo.com/ip3/support.anduintransact.com.ico",
     "slug": "support-page",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 408,
-    "timeDay": 411,
-    "timeWeek": 292,
-    "timeMonth": 378,
-    "timeYear": 405,
-    "dailyMinutesDown": {}
+    "time": 419,
+    "timeDay": 2905,
+    "timeWeek": 930,
+    "timeMonth": 534,
+    "timeYear": 418,
+    "dailyMinutesDown": {
+      "2025-06-10": 0
+    }
   },
   {
     "name": "Contact page",
