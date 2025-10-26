@@ -4,18 +4,20 @@
     "url": "https://anduintransact.com",
     "icon": "https://icons.duckduckgo.com/ip3/anduintransact.com.ico",
     "slug": "website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 237,
-    "timeDay": 220,
-    "timeWeek": 260,
-    "timeMonth": 251,
+    "timeDay": 187,
+    "timeWeek": 247,
+    "timeMonth": 248,
     "timeYear": 223,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-26": 0
+    }
   },
   {
     "name": "Support page",
@@ -43,18 +45,20 @@
     "url": "https://anduintransact.com/contact",
     "icon": "https://icons.duckduckgo.com/ip3/anduintransact.com.ico",
     "slug": "contact-page",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 137,
-    "timeDay": 82,
-    "timeWeek": 133,
-    "timeMonth": 146,
+    "time": 136,
+    "timeDay": 48,
+    "timeWeek": 118,
+    "timeMonth": 142,
     "timeYear": 139,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-26": 0
+    }
   },
   {
     "name": "Authentication system",
@@ -219,7 +223,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 322,
-    "timeDay": 289,
+    "timeDay": 348,
     "timeWeek": 751,
     "timeMonth": 479,
     "timeYear": 340,
