@@ -1,7 +1,7 @@
 url: $DOCSERVER_DEMO_ANDUINTRANSACT
-status: down
-code: 500
-responseTime: 295
-lastUpdated: 2025-11-18T11:45:38.302Z
+status: up
+code: 200
+responseTime: 452
+lastUpdated: 2025-11-18T11:52:15.376Z
 startTime: 2023-09-22T09:34:51.406Z
 generator: Upptime <https://github.com/upptime/upptime>
