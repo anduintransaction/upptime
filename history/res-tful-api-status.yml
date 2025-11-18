@@ -1,7 +1,7 @@
 url: https://api.anduin.app/api/v1/fundsub/
-status: up
-code: 401
-responseTime: 266
-lastUpdated: 2025-11-17T23:03:23.973Z
+status: down
+code: 500
+responseTime: 116
+lastUpdated: 2025-11-18T11:45:28.727Z
 startTime: 2023-09-06T10:49:49.549Z
 generator: Upptime <https://github.com/upptime/upptime>
