@@ -26,9 +26,9 @@
     "slug": "support-page",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "90.53%",
-    "uptimeWeek": "98.65%",
-    "uptimeMonth": "99.69%",
+    "uptimeDay": "91.20%",
+    "uptimeWeek": "98.74%",
+    "uptimeMonth": "99.71%",
     "uptimeYear": "99.97%",
     "time": 410,
     "timeDay": 298,
@@ -36,7 +36,7 @@
     "timeMonth": 375,
     "timeYear": 425,
     "dailyMinutesDown": {
-      "2025-11-18": 137,
+      "2025-11-18": 127,
       "2025-10-08": 16,
       "2025-06-10": 26
     }
@@ -189,19 +189,19 @@
     "url": "https://deals.anduintransact.com/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "gondor-public",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "92.62%",
-    "uptimeWeek": "98.95%",
-    "uptimeMonth": "99.76%",
+    "uptimeDay": "91.84%",
+    "uptimeWeek": "98.83%",
+    "uptimeMonth": "99.73%",
     "uptimeYear": "99.98%",
-    "time": 286,
-    "timeDay": 230,
-    "timeWeek": 293,
-    "timeMonth": 275,
+    "time": 285,
+    "timeDay": 222,
+    "timeWeek": 284,
+    "timeMonth": 272,
     "timeYear": 301,
     "dailyMinutesDown": {
-      "2025-11-18": 107
+      "2025-11-18": 118
     }
   },
   {
@@ -274,17 +274,17 @@
     "slug": "doc-server-gondor-demo",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "91.15%",
-    "uptimeWeek": "98.74%",
-    "uptimeMonth": "99.71%",
-    "uptimeYear": "99.98%",
+    "uptimeDay": "90.34%",
+    "uptimeWeek": "98.62%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.97%",
     "time": 426,
     "timeDay": 865,
     "timeWeek": 702,
     "timeMonth": 516,
     "timeYear": 422,
     "dailyMinutesDown": {
-      "2025-11-18": 128
+      "2025-11-18": 139
     }
   },
   {
