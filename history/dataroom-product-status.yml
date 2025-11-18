@@ -1,7 +1,7 @@
 url: https://dataroom.anduin.app/api/v3/standalone-app
-status: down
-code: 500
-responseTime: 67
-lastUpdated: 2025-11-18T13:07:41.009Z
+status: up
+code: 200
+responseTime: 382
+lastUpdated: 2025-11-18T13:23:03.437Z
 startTime: 2023-09-06T10:49:47.917Z
 generator: Upptime <https://github.com/upptime/upptime>
