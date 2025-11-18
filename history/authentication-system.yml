@@ -1,7 +1,7 @@
 url: https://id.anduin.app/#/login
-status: up
-code: 200
-responseTime: 291
-lastUpdated: 2025-11-17T23:03:22.425Z
+status: down
+code: 500
+responseTime: 250
+lastUpdated: 2025-11-18T11:45:21.193Z
 startTime: 2023-09-06T10:49:46.169Z
 generator: Upptime <https://github.com/upptime/upptime>
