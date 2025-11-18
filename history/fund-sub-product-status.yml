@@ -1,7 +1,7 @@
 url: https://fundsub.anduin.app/api/v3/standalone-app
-status: down
-code: 500
-responseTime: 147
-lastUpdated: 2025-11-18T13:07:39.281Z
+status: up
+code: 200
+responseTime: 410
+lastUpdated: 2025-11-18T13:22:59.611Z
 startTime: 2023-09-06T10:49:47.034Z
 generator: Upptime <https://github.com/upptime/upptime>
