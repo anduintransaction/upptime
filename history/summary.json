@@ -24,19 +24,19 @@
     "url": "https://support.anduintransact.com/",
     "icon": "https://icons.duckduckgo.com/ip3/support.anduintransact.com.ico",
     "slug": "support-page",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "91.18%",
-    "uptimeWeek": "98.74%",
-    "uptimeMonth": "99.71%",
+    "uptimeDay": "90.53%",
+    "uptimeWeek": "98.65%",
+    "uptimeMonth": "99.69%",
     "uptimeYear": "99.97%",
     "time": 410,
-    "timeDay": 292,
-    "timeWeek": 376,
+    "timeDay": 298,
+    "timeWeek": 375,
     "timeMonth": 375,
     "timeYear": 425,
     "dailyMinutesDown": {
-      "2025-11-18": 127,
+      "2025-11-18": 137,
       "2025-10-08": 16,
       "2025-06-10": 26
     }
@@ -189,19 +189,19 @@
     "url": "https://deals.anduintransact.com/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "92.66%",
+    "uptimeDay": "92.62%",
     "uptimeWeek": "98.95%",
     "uptimeMonth": "99.76%",
     "uptimeYear": "99.98%",
     "time": 286,
-    "timeDay": 237,
-    "timeWeek": 302,
-    "timeMonth": 277,
+    "timeDay": 230,
+    "timeWeek": 293,
+    "timeMonth": 275,
     "timeYear": 301,
     "dailyMinutesDown": {
-      "2025-11-18": 106
+      "2025-11-18": 107
     }
   },
   {
@@ -272,19 +272,19 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "91.19%",
+    "uptimeDay": "91.15%",
     "uptimeWeek": "98.74%",
     "uptimeMonth": "99.71%",
     "uptimeYear": "99.98%",
-    "time": 417,
-    "timeDay": 428,
-    "timeWeek": 429,
-    "timeMonth": 407,
-    "timeYear": 411,
+    "time": 426,
+    "timeDay": 865,
+    "timeWeek": 702,
+    "timeMonth": 516,
+    "timeYear": 422,
     "dailyMinutesDown": {
-      "2025-11-18": 127
+      "2025-11-18": 128
     }
   },
   {
