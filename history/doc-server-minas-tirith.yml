@@ -1,7 +1,7 @@
 url: $DOCSERVER_MINAS_ANDUINTRANSACT
-status: up
-code: 200
-responseTime: 816
-lastUpdated: 2025-11-18T12:14:45.048Z
+status: down
+code: 500
+responseTime: 172
+lastUpdated: 2025-11-18T12:29:43.360Z
 startTime: 2023-09-22T09:34:51.941Z
 generator: Upptime <https://github.com/upptime/upptime>
