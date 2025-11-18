@@ -191,9 +191,9 @@
     "slug": "gondor-public",
     "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "91.84%",
-    "uptimeWeek": "98.83%",
-    "uptimeMonth": "99.73%",
+    "uptimeDay": "92.66%",
+    "uptimeWeek": "98.95%",
+    "uptimeMonth": "99.76%",
     "uptimeYear": "99.98%",
     "time": 285,
     "timeDay": 222,
@@ -201,7 +201,7 @@
     "timeMonth": 272,
     "timeYear": 301,
     "dailyMinutesDown": {
-      "2025-11-18": 118
+      "2025-11-18": 106
     }
   },
   {
@@ -272,19 +272,19 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "90.34%",
-    "uptimeWeek": "98.62%",
-    "uptimeMonth": "99.68%",
+    "uptimeDay": "89.49%",
+    "uptimeWeek": "98.50%",
+    "uptimeMonth": "99.65%",
     "uptimeYear": "99.97%",
     "time": 426,
-    "timeDay": 865,
-    "timeWeek": 702,
-    "timeMonth": 516,
-    "timeYear": 422,
+    "timeDay": 837,
+    "timeWeek": 694,
+    "timeMonth": 517,
+    "timeYear": 423,
     "dailyMinutesDown": {
-      "2025-11-18": 139
+      "2025-11-18": 151
     }
   },
   {
