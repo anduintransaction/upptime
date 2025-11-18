@@ -1,7 +1,7 @@
 url: https://portal.anduin.app/api/v3/standalone-app
-status: up
-code: 200
-responseTime: 148
-lastUpdated: 2025-11-18T12:14:48.174Z
+status: down
+code: 500
+responseTime: 159
+lastUpdated: 2025-11-18T13:07:56.784Z
 startTime: 2023-09-22T09:34:54.077Z
 generator: Upptime <https://github.com/upptime/upptime>
