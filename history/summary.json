@@ -66,10 +66,10 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "97.81%",
-    "uptimeWeek": "99.69%",
+    "uptimeDay": "97.78%",
+    "uptimeWeek": "99.68%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.99%",
     "time": 264,
@@ -78,6 +78,7 @@
     "timeMonth": 316,
     "timeYear": 270,
     "dailyMinutesDown": {
+      "2025-11-19": 0,
       "2025-11-18": 31
     }
   },
@@ -377,10 +378,10 @@
     "url": "https://portal.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/portal.anduin.app.ico",
     "slug": "portal-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "97.80%",
-    "uptimeWeek": "99.69%",
+    "uptimeDay": "97.73%",
+    "uptimeWeek": "99.68%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.99%",
     "time": 211,
@@ -389,6 +390,7 @@
     "timeMonth": 208,
     "timeYear": 201,
     "dailyMinutesDown": {
+      "2025-11-19": 1,
       "2025-11-18": 31
     }
   },
