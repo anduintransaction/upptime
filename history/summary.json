@@ -13,7 +13,7 @@
     "time": 232,
     "timeDay": 268,
     "timeWeek": 239,
-    "timeMonth": 241,
+    "timeMonth": 246,
     "timeYear": 223,
     "dailyMinutesDown": {
       "2025-10-29": 34
@@ -55,7 +55,7 @@
     "time": 136,
     "timeDay": 230,
     "timeWeek": 258,
-    "timeMonth": 157,
+    "timeMonth": 163,
     "timeYear": 134,
     "dailyMinutesDown": {
       "2025-10-29": 34
@@ -272,10 +272,10 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.65%",
     "uptimeYear": "99.97%",
     "time": 423,
@@ -284,6 +284,7 @@
     "timeMonth": 510,
     "timeYear": 425,
     "dailyMinutesDown": {
+      "2025-12-01": 1,
       "2025-11-18": 151
     }
   },
