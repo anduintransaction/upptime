@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 221,
-    "timeDay": 284,
-    "timeWeek": 254,
-    "timeMonth": 225,
+    "timeDay": 382,
+    "timeWeek": 274,
+    "timeMonth": 228,
     "timeYear": 221,
     "dailyMinutesDown": {
       "2025-12-25": 27,
@@ -34,11 +34,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
-    "time": 462,
-    "timeDay": 748,
-    "timeWeek": 418,
-    "timeMonth": 430,
-    "timeYear": 476,
+    "time": 461,
+    "timeDay": 605,
+    "timeWeek": 412,
+    "timeMonth": 436,
+    "timeYear": 477,
     "dailyMinutesDown": {
       "2026-01-07": 18,
       "2026-01-06": 15,
@@ -59,9 +59,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 152,
-    "timeDay": 222,
+    "timeDay": 218,
     "timeWeek": 250,
-    "timeMonth": 230,
+    "timeMonth": 228,
     "timeYear": 157,
     "dailyMinutesDown": {
       "2025-12-25": 27,
@@ -83,9 +83,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 272,
-    "timeDay": 325,
-    "timeWeek": 262,
-    "timeMonth": 274,
+    "timeDay": 361,
+    "timeWeek": 270,
+    "timeMonth": 277,
     "timeYear": 285,
     "dailyMinutesDown": {
       "2025-11-18": 31
@@ -103,9 +103,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 230,
-    "timeDay": 217,
-    "timeWeek": 220,
-    "timeMonth": 233,
+    "timeDay": 226,
+    "timeWeek": 215,
+    "timeMonth": 234,
     "timeYear": 231,
     "dailyMinutesDown": {
       "2025-11-18": 52
@@ -123,9 +123,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 222,
-    "timeDay": 287,
-    "timeWeek": 209,
-    "timeMonth": 240,
+    "timeDay": 258,
+    "timeWeek": 214,
+    "timeMonth": 242,
     "timeYear": 231,
     "dailyMinutesDown": {
       "2025-11-18": 52
@@ -143,10 +143,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 224,
-    "timeDay": 283,
-    "timeWeek": 272,
-    "timeMonth": 258,
-    "timeYear": 233,
+    "timeDay": 439,
+    "timeWeek": 268,
+    "timeMonth": 267,
+    "timeYear": 234,
     "dailyMinutesDown": {
       "2025-11-18": 127
     }
@@ -163,9 +163,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 246,
-    "timeDay": 267,
+    "timeDay": 250,
     "timeWeek": 272,
-    "timeMonth": 281,
+    "timeMonth": 279,
     "timeYear": 253,
     "dailyMinutesDown": {
       "2025-11-18": 31,
@@ -184,10 +184,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 129,
-    "timeDay": 154,
-    "timeWeek": 107,
-    "timeMonth": 151,
-    "timeYear": 134,
+    "timeDay": 440,
+    "timeWeek": 149,
+    "timeMonth": 150,
+    "timeYear": 135,
     "dailyMinutesDown": {
       "2025-11-18": 31,
       "2025-10-20": 184
@@ -204,11 +204,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 299,
-    "timeDay": 419,
-    "timeWeek": 288,
-    "timeMonth": 308,
-    "timeYear": 306,
+    "time": 300,
+    "timeDay": 512,
+    "timeWeek": 301,
+    "timeMonth": 315,
+    "timeYear": 307,
     "dailyMinutesDown": {
       "2025-11-18": 106
     }
@@ -225,10 +225,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 361,
-    "timeDay": 480,
-    "timeWeek": 314,
-    "timeMonth": 348,
-    "timeYear": 352,
+    "timeDay": 488,
+    "timeWeek": 321,
+    "timeMonth": 353,
+    "timeYear": 353,
     "dailyMinutesDown": {
       "2025-11-18": 37
     }
@@ -240,14 +240,14 @@
     "slug": "minas-tirith",
     "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "95.80%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.25%",
     "uptimeMonth": "99.69%",
     "uptimeYear": "99.94%",
-    "time": 347,
-    "timeDay": 290,
-    "timeWeek": 348,
-    "timeMonth": 342,
+    "time": 348,
+    "timeDay": 412,
+    "timeWeek": 346,
+    "timeMonth": 346,
     "timeYear": 353,
     "dailyMinutesDown": {
       "2026-03-16": 60,
@@ -269,11 +269,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 155,
-    "timeDay": 112,
-    "timeWeek": 138,
+    "time": 156,
+    "timeDay": 183,
+    "timeWeek": 145,
     "timeMonth": 149,
-    "timeYear": 162,
+    "timeYear": 163,
     "dailyMinutesDown": {
       "2025-11-18": 106
     }
@@ -290,10 +290,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 425,
-    "timeDay": 517,
-    "timeWeek": 439,
-    "timeMonth": 437,
-    "timeYear": 453,
+    "timeDay": 524,
+    "timeWeek": 454,
+    "timeMonth": 431,
+    "timeYear": 454,
     "dailyMinutesDown": {
       "2025-11-18": 151
     }
@@ -309,11 +309,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 281,
-    "timeDay": 672,
-    "timeWeek": 864,
-    "timeMonth": 591,
-    "timeYear": 331,
+    "time": 282,
+    "timeDay": 683,
+    "timeWeek": 547,
+    "timeMonth": 596,
+    "timeYear": 333,
     "dailyMinutesDown": {
       "2025-11-18": 50
     }
@@ -329,10 +329,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.96%",
-    "time": 217,
-    "timeDay": 272,
-    "timeWeek": 173,
-    "timeMonth": 230,
+    "time": 216,
+    "timeDay": 268,
+    "timeWeek": 163,
+    "timeMonth": 231,
     "timeYear": 220,
     "dailyMinutesDown": {
       "2026-03-03": 19,
@@ -355,11 +355,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 191,
-    "timeDay": 89,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 189,
+    "time": 190,
+    "timeDay": 102,
+    "timeWeek": 135,
+    "timeMonth": 132,
+    "timeYear": 188,
     "dailyMinutesDown": {}
   },
   {
@@ -373,11 +373,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 188,
-    "timeDay": 117,
-    "timeWeek": 165,
-    "timeMonth": 138,
-    "timeYear": 186,
+    "time": 189,
+    "timeDay": 412,
+    "timeWeek": 196,
+    "timeMonth": 147,
+    "timeYear": 187,
     "dailyMinutesDown": {}
   },
   {
@@ -392,10 +392,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 212,
-    "timeDay": 366,
-    "timeWeek": 224,
+    "timeDay": 236,
+    "timeWeek": 232,
     "timeMonth": 217,
-    "timeYear": 219,
+    "timeYear": 220,
     "dailyMinutesDown": {
       "2025-11-18": 31
     }
@@ -412,10 +412,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 316,
-    "timeDay": 462,
-    "timeWeek": 294,
-    "timeMonth": 324,
-    "timeYear": 324,
+    "timeDay": 539,
+    "timeWeek": 312,
+    "timeMonth": 332,
+    "timeYear": 325,
     "dailyMinutesDown": {
       "2025-11-18": 16
     }
@@ -427,15 +427,15 @@
     "slug": "portal-minas-tirith",
     "status": "up",
     "uptime": "99.97%",
-    "uptimeDay": "95.80%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.25%",
     "uptimeMonth": "99.69%",
     "uptimeYear": "99.94%",
     "time": 308,
-    "timeDay": 329,
-    "timeWeek": 287,
-    "timeMonth": 295,
-    "timeYear": 311,
+    "timeDay": 402,
+    "timeWeek": 290,
+    "timeMonth": 298,
+    "timeYear": 312,
     "dailyMinutesDown": {
       "2026-03-16": 60,
       "2026-03-14": 15,
