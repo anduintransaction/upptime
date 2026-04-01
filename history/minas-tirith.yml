@@ -1,7 +1,7 @@
 url: $GONDOR_MINAS_ANDUINTRANSACT
-status: down
-code: 503
-responseTime: 268
-lastUpdated: 2026-04-01T03:50:38.458Z
+status: up
+code: 200
+responseTime: 225
+lastUpdated: 2026-04-01T04:51:24.181Z
 startTime: 2023-09-22T09:34:46.532Z
 generator: Upptime <https://github.com/upptime/upptime>
