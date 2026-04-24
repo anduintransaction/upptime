@@ -1,4 +1,4 @@
-name: Generate DORA Quarterly Report (PDF)
+name: Generate DORA Quarterly Report (PDF & CSV)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  generate-and-store-pdf:
+  generate-and-store-reports:
     runs-on: self-hosted
     steps:
       - name: Checkout Repository
@@ -25,7 +25,7 @@ jobs:
       - name: Install PDF and Chart Libraries
         run: pip install fpdf2 matplotlib
 
-      - name: Parse Upptime Data and Generate PDF
+      - name: Parse Upptime Data, Generate PDF and CSV
         run: |
           python -c '
           import json, glob, os, datetime, subprocess
@@ -112,6 +112,9 @@ jobs:
 
           global_timestamps = []
 
+          # Initialize CSV data string with headers
+          csv_data = "Service,Uptime (%),Min Resp Time (ms),Avg Resp Time (ms),Max Resp Time (ms),Data Period\n"
+
           if not sites:
               pdf.cell(190, row_h, " No uptime data found. Check Upptime data.", border=1, new_x="LMARGIN", new_y="NEXT")
           else:
@@ -134,7 +137,6 @@ jobs:
                   rt_path = f"api/{site_slug}/response-time.json"
 
                   try:
-                      # --- ADDED GIT LOG BOUNDARIES ---
                       log_cmd = [
                           "git", "log",
                           f"--since={start_date}",
@@ -160,12 +162,22 @@ jobs:
                   except Exception as e:
                       pass
 
+                  # Default CSV values
+                  min_rt = avg_rt = max_rt = "N/A"
+                  period_str = "No data"
+
                   if times and dates:
                       times.reverse()
                       global_timestamps.extend(dates)
 
-                      rt_str = f"{min(times)} / {int(sum(times)/len(times))} / {max(times)} ms"
+                      min_rt = min(times)
+                      avg_rt = int(sum(times)/len(times))
+                      max_rt = max(times)
+                      period_str = f"{dates[0]} to {dates[-1]}"
 
+                      rt_str = f"{min_rt} / {avg_rt} / {max_rt} ms"
+
+                      # --- GENERATE REVERTED BAR CHART WITH BALANCE CAP ---
                       fig, ax = plt.subplots(figsize=(3.5, 0.5))
 
                       sorted_t = sorted(times)
@@ -183,6 +195,9 @@ jobs:
                       plt.close(fig)
                   else:
                       rt_str = "N/A"
+
+                  # Append row to CSV data
+                  csv_data += f"\"{site_name}\",\"{uptime.replace('%', '').strip()}\",\"{min_rt}\",\"{avg_rt}\",\"{max_rt}\",\"{period_str}\"\n"
 
                   pdf.cell(35, row_h, f" {site_name[:20]}", border=1)
                   pdf.cell(15, row_h, f" {uptime}", border=1, align="C")
@@ -213,16 +228,25 @@ jobs:
           pdf.cell(0, 5, "Generated automatically by Anduin Transactions Inc Infrastructure Systems.", new_x="LMARGIN", new_y="NEXT")
 
           os.makedirs("dora-reports", exist_ok=True)
-          filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
-          pdf.output(filename)
 
-          print(f"Successfully generated PDF strictly bounded to Q{report_quarter}: {filename}")
+          # Output PDF
+          pdf_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
+          pdf.output(pdf_filename)
+
+          # Output CSV
+          csv_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.csv"
+          with open(csv_filename, "w") as f:
+              f.write(csv_data)
+
+          print(f"Successfully generated PDF and CSV for Q{report_quarter}.")
           '
-      - name: Securely Archive PDF on Local Server
+
+      - name: Securely Archive Reports on Local Server
         run: |
           mkdir -p /opt/upptime/reports
-          mv dora-reports/*.pdf /opt/upptime/reports/
-          echo "PDF securely moved to /opt/upptime/reports/"
+          # The asterisk (*) ensures both the .pdf and .csv are moved
+          mv dora-reports/* /opt/upptime/reports/
+          echo "Reports securely moved to /opt/upptime/reports/"
 
       - name: Clean Up Runner Workspace
         if: always()
