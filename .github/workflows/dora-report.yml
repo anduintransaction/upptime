@@ -35,9 +35,7 @@ jobs:
           import matplotlib.pyplot as plt
 
           # --- CONFIGURATION ---
-          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "consent", "minas", "demo","doc-server"]
-
-          # Map the raw Upptime folder slug to your desired display name
+          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "consent", "minas", "demo","doc-server", "fund-sub-website", "signature-website"]
           NAME_OVERRIDES = {
               "res-tful-api-status": "Public API",
               "graph-ql-api-status": "GraphQL",
@@ -47,7 +45,6 @@ jobs:
               "gondor-public": "Platform",
               "portal-public": "Portal",
               "e-sign-product-status": "E-Sign"
-
           }
           # ---------------------
 
@@ -102,15 +99,18 @@ jobs:
           sites = glob.glob("api/*/uptime.json")
           row_h = 15
 
+          # Initialize a list to hold ALL timestamps across ALL services
+          global_timestamps = []
+
           if not sites:
               pdf.cell(190, row_h, " No uptime data found. Check Upptime data.", border=1, new_x="LMARGIN", new_y="NEXT")
           else:
               for site_path in sites:
                   site_slug = site_path.split("/")[1]
-                  # This ensures strict case-insensitive matching for both the site slug and your keywords
+
                   if any(kw.lower() in site_slug.lower() for kw in SKIP_KEYWORDS):
                       continue
-                  # Apply custom name override if it exists; otherwise use default formatting
+
                   site_name = NAME_OVERRIDES.get(site_slug, site_slug.replace("-", " ").title())
 
                   try:
@@ -144,6 +144,9 @@ jobs:
 
                   if times and dates:
                       times.reverse()
+                      # Add this services dates to our global tracker
+                      global_timestamps.extend(dates)
+
                       rt_str = f"{min(times)} / {int(sum(times)/len(times))} / {max(times)} ms"
 
                       fig, ax = plt.subplots(figsize=(3.5, 0.5))
@@ -178,10 +181,21 @@ jobs:
                   else:
                       pdf.cell(100, row_h, " No data", border=1, align="C", new_x="LMARGIN", new_y="NEXT")
 
+          # --- DETERMINE GLOBAL DATE RANGE ---
+          if global_timestamps:
+              global_timestamps.sort()
+              first_ts = global_timestamps[0]
+              last_ts = global_timestamps[-1]
+              period_text = f"Data recorded from {first_ts} to {last_ts} (UTC)"
+          else:
+              period_text = "No historical data timestamps available."
+
+          # --- PRINT THE REPORT FOOTER ---
           pdf.ln(10)
           pdf.set_font("helvetica", "I", 8)
           pdf.set_text_color(100, 100, 100)
-          pdf.cell(0, 10, "Generated automatically by Anduin Transactions Inc Infrastructure Systems.", new_x="LMARGIN", new_y="NEXT")
+          pdf.cell(0, 5, period_text, new_x="LMARGIN", new_y="NEXT")
+          pdf.cell(0, 5, "Generated automatically by Anduin Transactions Inc Infrastructure Systems.", new_x="LMARGIN", new_y="NEXT")
 
           os.makedirs("dora-reports", exist_ok=True)
           filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
@@ -189,7 +203,6 @@ jobs:
 
           print(f"Successfully generated PDF with balanced charts: {filename}")
           '
-
       - name: Securely Archive PDF on Local Server
         run: |
           mkdir -p /opt/upptime/reports
