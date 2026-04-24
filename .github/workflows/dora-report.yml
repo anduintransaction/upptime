@@ -10,33 +10,32 @@ permissions:
 
 jobs:
   generate-and-store-pdf:
-    runs-on: self-hosted # Assuming you are using your self-hosted runner
+    runs-on: self-hosted
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # CRITICAL: Required to fetch the git commit history for response times
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install PDF Library
-        run: pip install fpdf2
+      - name: Install PDF and Chart Libraries
+        run: pip install fpdf2 matplotlib
 
       - name: Parse Upptime Data and Generate PDF
         run: |
           python -c '
           import json, glob, os, datetime, subprocess
           from fpdf import FPDF
+          import matplotlib
+          matplotlib.use("Agg")
+          import matplotlib.pyplot as plt
 
-          # --- CONFIGURATION ---
-          # Add keywords here to automatically skip non-production sites (case-insensitive)
           SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat"]
-          # ---------------------
 
-          # Determine Current Year and Quarter
           today = datetime.date.today()
           quarter = (today.month - 1) // 3 + 1
           if today.month in [1, 4, 7, 10]:
@@ -45,11 +44,8 @@ jobs:
           else:
               report_year, report_quarter = today.year, quarter
 
-          # Define the PDF Layout
           class PDF(FPDF):
               def header(self):
-                  # Uncomment the line below if you added logo.png to your repository root
-                  self.image("logo.png", 10, 8, 33)
                   self.set_font("helvetica", "B", 16)
                   self.set_text_color(0, 51, 102)
                   self.cell(0, 10, "DORA Quarterly Service Performance Summary", align="C", new_x="LMARGIN", new_y="NEXT")
@@ -67,13 +63,12 @@ jobs:
           pdf = PDF()
           pdf.add_page()
 
-          # Introductory Text
           pdf.set_font("helvetica", "", 10)
           pdf.set_text_color(0, 0, 0)
           intro = (
               "This document contains periodic continuous monitoring metrics to support Third-Party "
               "Risk Management (TPRM) and compliance under the EU Digital Operational Resilience Act (DORA). "
-              "It includes uptime, response time performance (Min/Avg/Max), and the exact data capture period."
+              "It includes uptime and response time trends across the reporting period."
           )
           pdf.multi_cell(0, 5, intro)
           pdf.ln(8)
@@ -84,39 +79,35 @@ jobs:
           pdf.cell(35, 8, " Service", border=1, fill=True)
           pdf.cell(15, 8, " Uptime", border=1, fill=True, align="C")
           pdf.cell(40, 8, " Resp. Time (Min/Avg/Max)", border=1, fill=True, align="C")
-          pdf.cell(100, 8, " Data Period (From - To)", border=1, fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
+          pdf.cell(100, 8, " Response Time Trend", border=1, fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
 
           pdf.set_font("helvetica", "", 8)
 
-          # Extract Data
           sites = glob.glob("api/*/uptime.json")
+          row_h = 15
 
           if not sites:
-              pdf.cell(190, 8, " No uptime data found. Check Upptime data.", border=1, new_x="LMARGIN", new_y="NEXT")
+              pdf.cell(190, row_h, " No uptime data found. Check Upptime data.", border=1, new_x="LMARGIN", new_y="NEXT")
           else:
               for site_path in sites:
                   site_slug = site_path.split("/")[1]
 
-                  # Skip non-production sites based on keywords
                   if any(kw in site_slug.lower() for kw in SKIP_KEYWORDS):
                       continue
 
                   site_name = site_slug.replace("-", " ").title()
 
-                  # 1. Get Uptime %
                   try:
                       with open(site_path, "r") as f:
                           uptime = json.load(f).get("message", "N/A")
                   except:
                       uptime = "Error"
 
-                  # 2. Get Historical Response Times and Timestamps from Git Log
                   times = []
                   dates = []
                   rt_path = f"api/{site_slug}/response-time.json"
 
                   try:
-                      # Fetch all commits that modified this specific endpoints response-time.json
                       log_cmd = ["git", "log", "--format=%H|%ad", "--date=format:%Y-%m-%d %H:%M", "--", rt_path]
                       log_out = subprocess.check_output(log_cmd).decode("utf-8").strip()
 
@@ -125,7 +116,6 @@ jobs:
                               if not line.strip(): continue
                               commit_hash, commit_date = line.split("|", 1)
 
-                              # Extract the JSON payload at this specific commit in history
                               content = subprocess.check_output(["git", "show", f"{commit_hash}:{rt_path}"]).decode("utf-8")
                               data = json.loads(content)
 
@@ -136,20 +126,43 @@ jobs:
                   except Exception as e:
                       pass
 
-                  # Calculate Min, Avg, Max and format period string
                   if times and dates:
-                      dates.sort() # Ensure chronological order
+                      times.reverse()
                       rt_str = f"{min(times)} / {int(sum(times)/len(times))} / {max(times)} ms"
-                      period_str = f"{dates[0]}  -  {dates[-1]}"
+
+                      # --- GENERATE CHART WITH BALANCE CAP ---
+                      fig, ax = plt.subplots(figsize=(3.5, 0.5))
+
+                      sorted_t = sorted(times)
+                      p95 = sorted_t[int(len(sorted_t) * 0.95)] if len(sorted_t) > 10 else max(times)
+
+                      y_max = max(p95 * 1.5, 300)
+                      colors = ["#D93025" if t > y_max else "#0055A4" for t in times]
+
+                      ax.bar(range(len(times)), times, color=colors, width=1.0)
+                      ax.set_ylim(0, y_max)
+                      ax.axis("off")
+
+                      chart_path = f"temp_{site_slug}.png"
+                      plt.savefig(chart_path, bbox_inches="tight", pad_inches=0, transparent=True)
+                      plt.close(fig)
                   else:
                       rt_str = "N/A"
-                      period_str = "No historical data available"
 
-                  # Populate Row
-                  pdf.cell(35, 8, f" {site_name[:20]}", border=1) # Truncates long names to fit layout
-                  pdf.cell(15, 8, f" {uptime}", border=1, align="C")
-                  pdf.cell(40, 8, f" {rt_str}", border=1, align="C")
-                  pdf.cell(100, 8, f" {period_str}", border=1, align="C", new_x="LMARGIN", new_y="NEXT")
+                  # Draw Cells
+                  pdf.cell(35, row_h, f" {site_name[:20]}", border=1)
+                  pdf.cell(15, row_h, f" {uptime}", border=1, align="C")
+                  pdf.cell(40, row_h, f" {rt_str}", border=1, align="C")
+
+                  x = pdf.get_x()
+                  y = pdf.get_y()
+
+                  if times and dates:
+                      pdf.cell(100, row_h, "", border=1, new_x="LMARGIN", new_y="NEXT")
+                      pdf.image(chart_path, x=x+2, y=y+1, w=96, h=13)
+                      os.remove(chart_path)
+                  else:
+                      pdf.cell(100, row_h, " No data", border=1, align="C", new_x="LMARGIN", new_y="NEXT")
 
           pdf.ln(10)
           pdf.set_font("helvetica", "I", 8)
@@ -160,5 +173,17 @@ jobs:
           filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
           pdf.output(filename)
 
-          print(f"Successfully generated business-friendly PDF: {filename}")
+          print(f"Successfully generated PDF with balanced charts: {filename}")
           '
+
+      - name: Securely Archive PDF on Local Server
+        run: |
+          mkdir -p /opt/upptime/reports
+          mv dora-reports/*.pdf /opt/upptime/reports/
+          echo "PDF securely moved to /opt/upptime/reports/"
+
+      - name: Clean Up Runner Workspace
+        if: always()
+        run: |
+          rm -rf dora-reports/
+          echo "Runner workspace cleaned."
