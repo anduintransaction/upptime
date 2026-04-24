@@ -35,7 +35,7 @@ jobs:
           import matplotlib.pyplot as plt
 
           # --- CONFIGURATION ---
-          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "Minas", "Demo", "Consent"]
+          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "consent", "minas", "demo"]
 
           # Map the raw Upptime folder slug to your desired display name
           NAME_OVERRIDES = {
@@ -55,6 +55,7 @@ jobs:
           class PDF(FPDF):
               def header(self):
                   self.image("logo.png", 10, 8, 33)
+                  self.ln(10)
                   self.set_font("helvetica", "B", 16)
                   self.set_text_color(0, 51, 102)
                   self.cell(0, 10, "DORA Quarterly Service Performance Summary", align="C", new_x="LMARGIN", new_y="NEXT")
@@ -99,10 +100,9 @@ jobs:
           else:
               for site_path in sites:
                   site_slug = site_path.split("/")[1]
-
-                  if any(kw in site_slug.lower() for kw in SKIP_KEYWORDS):
+                  # This ensures strict case-insensitive matching for both the site slug and your keywords
+                  if any(kw.lower() in site_slug.lower() for kw in SKIP_KEYWORDS):
                       continue
-
                   # Apply custom name override if it exists; otherwise use default formatting
                   site_name = NAME_OVERRIDES.get(site_slug, site_slug.replace("-", " ").title())
 
