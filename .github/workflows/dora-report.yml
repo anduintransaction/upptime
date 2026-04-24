@@ -34,7 +34,15 @@ jobs:
           matplotlib.use("Agg")
           import matplotlib.pyplot as plt
 
-          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat"]
+          # --- CONFIGURATION ---
+          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "Minas", "Demo", "Consent"]
+
+          # Map the raw Upptime folder slug to your desired display name
+          NAME_OVERRIDES = {
+              "res-tful-api-status": "Public API",
+              "graph-ql-api-status": "GraphQL"
+          }
+          # ---------------------
 
           today = datetime.date.today()
           quarter = (today.month - 1) // 3 + 1
@@ -46,6 +54,7 @@ jobs:
 
           class PDF(FPDF):
               def header(self):
+                  self.image("logo.png", 10, 8, 33)
                   self.set_font("helvetica", "B", 16)
                   self.set_text_color(0, 51, 102)
                   self.cell(0, 10, "DORA Quarterly Service Performance Summary", align="C", new_x="LMARGIN", new_y="NEXT")
@@ -73,7 +82,6 @@ jobs:
           pdf.multi_cell(0, 5, intro)
           pdf.ln(8)
 
-          # Draw Table Header
           pdf.set_font("helvetica", "B", 8)
           pdf.set_fill_color(240, 240, 240)
           pdf.cell(35, 8, " Service", border=1, fill=True)
@@ -95,7 +103,8 @@ jobs:
                   if any(kw in site_slug.lower() for kw in SKIP_KEYWORDS):
                       continue
 
-                  site_name = site_slug.replace("-", " ").title()
+                  # Apply custom name override if it exists; otherwise use default formatting
+                  site_name = NAME_OVERRIDES.get(site_slug, site_slug.replace("-", " ").title())
 
                   try:
                       with open(site_path, "r") as f:
@@ -130,7 +139,6 @@ jobs:
                       times.reverse()
                       rt_str = f"{min(times)} / {int(sum(times)/len(times))} / {max(times)} ms"
 
-                      # --- GENERATE CHART WITH BALANCE CAP ---
                       fig, ax = plt.subplots(figsize=(3.5, 0.5))
 
                       sorted_t = sorted(times)
@@ -149,7 +157,6 @@ jobs:
                   else:
                       rt_str = "N/A"
 
-                  # Draw Cells
                   pdf.cell(35, row_h, f" {site_name[:20]}", border=1)
                   pdf.cell(15, row_h, f" {uptime}", border=1, align="C")
                   pdf.cell(40, row_h, f" {rt_str}", border=1, align="C")
