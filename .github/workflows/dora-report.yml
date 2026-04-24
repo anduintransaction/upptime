@@ -56,6 +56,17 @@ jobs:
           else:
               report_year, report_quarter = today.year, quarter
 
+          # --- DETERMINE EXACT QUARTER BOUNDARIES ---
+          quarter_boundaries = {
+              1: ("01-01", "03-31"),
+              2: ("04-01", "06-30"),
+              3: ("07-01", "09-30"),
+              4: ("10-01", "12-31")
+          }
+          start_date = f"{report_year}-{quarter_boundaries[report_quarter][0]} 00:00:00"
+          end_date = f"{report_year}-{quarter_boundaries[report_quarter][1]} 23:59:59"
+          # ------------------------------------------
+
           class PDF(FPDF):
               def header(self):
                   self.image("logo.png", 10, 8, 33)
@@ -82,7 +93,7 @@ jobs:
           intro = (
               "This document contains periodic continuous monitoring metrics to support Third-Party "
               "Risk Management (TPRM) and compliance under the EU Digital Operational Resilience Act (DORA). "
-              "It includes uptime and response time trends across the reporting period."
+              "It includes uptime and response time trends strictly bounded within the reporting quarter."
           )
           pdf.multi_cell(0, 5, intro)
           pdf.ln(8)
@@ -99,7 +110,6 @@ jobs:
           sites = glob.glob("api/*/uptime.json")
           row_h = 15
 
-          # Initialize a list to hold ALL timestamps across ALL services
           global_timestamps = []
 
           if not sites:
@@ -124,7 +134,15 @@ jobs:
                   rt_path = f"api/{site_slug}/response-time.json"
 
                   try:
-                      log_cmd = ["git", "log", "--format=%H|%ad", "--date=format:%Y-%m-%d %H:%M", "--", rt_path]
+                      # --- ADDED GIT LOG BOUNDARIES ---
+                      log_cmd = [
+                          "git", "log",
+                          f"--since={start_date}",
+                          f"--until={end_date}",
+                          "--format=%H|%ad",
+                          "--date=format:%Y-%m-%d %H:%M",
+                          "--", rt_path
+                      ]
                       log_out = subprocess.check_output(log_cmd).decode("utf-8").strip()
 
                       if log_out:
@@ -144,7 +162,6 @@ jobs:
 
                   if times and dates:
                       times.reverse()
-                      # Add this services dates to our global tracker
                       global_timestamps.extend(dates)
 
                       rt_str = f"{min(times)} / {int(sum(times)/len(times))} / {max(times)} ms"
@@ -179,18 +196,16 @@ jobs:
                       pdf.image(chart_path, x=x+2, y=y+1, w=96, h=13)
                       os.remove(chart_path)
                   else:
-                      pdf.cell(100, row_h, " No data", border=1, align="C", new_x="LMARGIN", new_y="NEXT")
+                      pdf.cell(100, row_h, " No data for quarter", border=1, align="C", new_x="LMARGIN", new_y="NEXT")
 
-          # --- DETERMINE GLOBAL DATE RANGE ---
           if global_timestamps:
               global_timestamps.sort()
               first_ts = global_timestamps[0]
               last_ts = global_timestamps[-1]
               period_text = f"Data recorded from {first_ts} to {last_ts} (UTC)"
           else:
-              period_text = "No historical data timestamps available."
+              period_text = f"No historical data available for {report_year} Q{report_quarter}."
 
-          # --- PRINT THE REPORT FOOTER ---
           pdf.ln(10)
           pdf.set_font("helvetica", "I", 8)
           pdf.set_text_color(100, 100, 100)
@@ -201,7 +216,7 @@ jobs:
           filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
           pdf.output(filename)
 
-          print(f"Successfully generated PDF with balanced charts: {filename}")
+          print(f"Successfully generated PDF strictly bounded to Q{report_quarter}: {filename}")
           '
       - name: Securely Archive PDF on Local Server
         run: |
