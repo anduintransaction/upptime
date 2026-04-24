@@ -1,4 +1,4 @@
-name: Generate DORA Quarterly Report (PDF & CSV)
+name: Generate DORA Quarterly Report (PDF & CSVs)
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
       - name: Install PDF and Chart Libraries
         run: pip install fpdf2 matplotlib
 
-      - name: Parse Upptime Data, Generate PDF and CSV
+      - name: Parse Upptime Data, Generate PDF and CSVs
         run: |
           python -c '
           import json, glob, os, datetime, subprocess
@@ -109,7 +109,10 @@ jobs:
           row_h = 15
 
           global_timestamps = []
-          csv_data = "Service,Uptime (%),Min Resp Time (ms),Avg Resp Time (ms),Max Resp Time (ms),Data Period\n"
+
+          # Initialize TWO separate CSV strings
+          csv_summary = "Service,Uptime (%),Min Resp Time (ms),Avg Resp Time (ms),Max Resp Time (ms),Data Period\n"
+          csv_raw = "Service,Timestamp (UTC),Response Time (ms)\n"
 
           if not sites:
               pdf.cell(190, row_h, " No uptime data found. Check Upptime data.", border=1, new_x="LMARGIN", new_y="NEXT")
@@ -122,7 +125,6 @@ jobs:
 
                   site_name = NAME_OVERRIDES.get(site_slug, site_slug.replace("-", " ").title())
 
-                  # Fix: Extract string replacement to a variable using strict double quotes
                   try:
                       with open(site_path, "r") as f:
                           uptime = json.load(f).get("message", "N/A")
@@ -155,7 +157,6 @@ jobs:
                               data = json.loads(content)
 
                               if "message" in data:
-                                  # Fix: Use double quotes for string replacements inside the script
                                   val = int(data["message"].replace(" ms", "").strip())
                                   times.append(val)
                                   dates.append(commit_date)
@@ -166,16 +167,23 @@ jobs:
                   period_str = "No data"
 
                   if times and dates:
+                      # Reverse both to ensure Git history is parsed chronologically (oldest to newest)
                       times.reverse()
+                      dates.reverse()
+
                       global_timestamps.extend(dates)
 
                       min_rt = min(times)
                       avg_rt = int(sum(times)/len(times))
                       max_rt = max(times)
                       period_str = f"{dates[0]} to {dates[-1]}"
-
                       rt_str = f"{min_rt} / {avg_rt} / {max_rt} ms"
 
+                      # --- APPEND TO RAW GRANULAR CSV ---
+                      for d, t in zip(dates, times):
+                          csv_raw += f"\"{site_name}\",\"{d}\",\"{t}\"\n"
+
+                      # --- GENERATE PDF CHART ---
                       fig, ax = plt.subplots(figsize=(3.5, 0.5))
 
                       sorted_t = sorted(times)
@@ -194,8 +202,8 @@ jobs:
                   else:
                       rt_str = "N/A"
 
-                  # Fix: Safely pass the pre-cleaned variable into the f-string without inline quotes
-                  csv_data += f"\"{site_name}\",\"{clean_uptime}\",\"{min_rt}\",\"{avg_rt}\",\"{max_rt}\",\"{period_str}\"\n"
+                  # Append row to Summary CSV
+                  csv_summary += f"\"{site_name}\",\"{clean_uptime}\",\"{min_rt}\",\"{avg_rt}\",\"{max_rt}\",\"{period_str}\"\n"
 
                   pdf.cell(35, row_h, f" {site_name[:20]}", border=1)
                   pdf.cell(15, row_h, f" {uptime}", border=1, align="C")
@@ -227,21 +235,26 @@ jobs:
 
           os.makedirs("dora-reports", exist_ok=True)
 
-          pdf_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
-          pdf.output(pdf_filename)
+          # Output 1: PDF Report
+          pdf.output(f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf")
 
-          csv_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.csv"
-          with open(csv_filename, "w") as f:
-              f.write(csv_data)
+          # Output 2: Summary CSV
+          with open(f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}-Summary.csv", "w") as f:
+              f.write(csv_summary)
 
-          print(f"Successfully generated PDF and CSV for Q{report_quarter}.")
+          # Output 3: Raw Metrics CSV
+          with open(f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}-RawMetrics.csv", "w") as f:
+              f.write(csv_raw)
+
+          print(f"Successfully generated PDF, Summary CSV, and Raw Metrics CSV for Q{report_quarter}.")
           '
+
       - name: Securely Archive Reports on Local Server
         run: |
           mkdir -p /opt/upptime/reports
-          # The asterisk (*) ensures both the .pdf and .csv are moved
+          # Automatically moves the PDF and BOTH CSVs to the secure folder
           mv dora-reports/* /opt/upptime/reports/
-          echo "Reports securely moved to /opt/upptime/reports/"
+          echo "All reports securely moved to /opt/upptime/reports/"
 
       - name: Clean Up Runner Workspace
         if: always()
