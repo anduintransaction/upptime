@@ -56,7 +56,6 @@ jobs:
           else:
               report_year, report_quarter = today.year, quarter
 
-          # --- DETERMINE EXACT QUARTER BOUNDARIES ---
           quarter_boundaries = {
               1: ("01-01", "03-31"),
               2: ("04-01", "06-30"),
@@ -65,7 +64,6 @@ jobs:
           }
           start_date = f"{report_year}-{quarter_boundaries[report_quarter][0]} 00:00:00"
           end_date = f"{report_year}-{quarter_boundaries[report_quarter][1]} 23:59:59"
-          # ------------------------------------------
 
           class PDF(FPDF):
               def header(self):
@@ -111,8 +109,6 @@ jobs:
           row_h = 15
 
           global_timestamps = []
-
-          # Initialize CSV data string with headers
           csv_data = "Service,Uptime (%),Min Resp Time (ms),Avg Resp Time (ms),Max Resp Time (ms),Data Period\n"
 
           if not sites:
@@ -126,11 +122,14 @@ jobs:
 
                   site_name = NAME_OVERRIDES.get(site_slug, site_slug.replace("-", " ").title())
 
+                  # Fix: Extract string replacement to a variable using strict double quotes
                   try:
                       with open(site_path, "r") as f:
                           uptime = json.load(f).get("message", "N/A")
+                          clean_uptime = uptime.replace("%", "").strip()
                   except:
                       uptime = "Error"
+                      clean_uptime = "Error"
 
                   times = []
                   dates = []
@@ -156,13 +155,13 @@ jobs:
                               data = json.loads(content)
 
                               if "message" in data:
+                                  # Fix: Use double quotes for string replacements inside the script
                                   val = int(data["message"].replace(" ms", "").strip())
                                   times.append(val)
                                   dates.append(commit_date)
                   except Exception as e:
                       pass
 
-                  # Default CSV values
                   min_rt = avg_rt = max_rt = "N/A"
                   period_str = "No data"
 
@@ -177,7 +176,6 @@ jobs:
 
                       rt_str = f"{min_rt} / {avg_rt} / {max_rt} ms"
 
-                      # --- GENERATE REVERTED BAR CHART WITH BALANCE CAP ---
                       fig, ax = plt.subplots(figsize=(3.5, 0.5))
 
                       sorted_t = sorted(times)
@@ -196,8 +194,8 @@ jobs:
                   else:
                       rt_str = "N/A"
 
-                  # Append row to CSV data
-                  csv_data += f"\"{site_name}\",\"{uptime.replace('%', '').strip()}\",\"{min_rt}\",\"{avg_rt}\",\"{max_rt}\",\"{period_str}\"\n"
+                  # Fix: Safely pass the pre-cleaned variable into the f-string without inline quotes
+                  csv_data += f"\"{site_name}\",\"{clean_uptime}\",\"{min_rt}\",\"{avg_rt}\",\"{max_rt}\",\"{period_str}\"\n"
 
                   pdf.cell(35, row_h, f" {site_name[:20]}", border=1)
                   pdf.cell(15, row_h, f" {uptime}", border=1, align="C")
@@ -229,18 +227,15 @@ jobs:
 
           os.makedirs("dora-reports", exist_ok=True)
 
-          # Output PDF
           pdf_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.pdf"
           pdf.output(pdf_filename)
 
-          # Output CSV
           csv_filename = f"dora-reports/DORA-Report-{report_year}-Q{report_quarter}.csv"
           with open(csv_filename, "w") as f:
               f.write(csv_data)
 
           print(f"Successfully generated PDF and CSV for Q{report_quarter}.")
           '
-
       - name: Securely Archive Reports on Local Server
         run: |
           mkdir -p /opt/upptime/reports
