@@ -35,12 +35,19 @@ jobs:
           import matplotlib.pyplot as plt
 
           # --- CONFIGURATION ---
-          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "consent", "minas", "demo"]
+          SKIP_KEYWORDS = ["dev", "staging", "test", "sandbox", "uat", "consent", "minas", "demo","doc-server"]
 
           # Map the raw Upptime folder slug to your desired display name
           NAME_OVERRIDES = {
               "res-tful-api-status": "Public API",
-              "graph-ql-api-status": "GraphQL"
+              "graph-ql-api-status": "GraphQL",
+              "authentication-system": "Authentication",
+              "fund-sub-product-status": "FundSub",
+              "dataroom-product-status": "Dataroom",
+              "gondor-public": "Platform",
+              "portal-public": "Portal",
+              "e-sign-product-status": "E-Sign"
+
           }
           # ---------------------
 
