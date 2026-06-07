@@ -331,12 +331,12 @@
     "slug": "board-consent",
     "status": "up",
     "uptime": "99.89%",
-    "uptimeDay": "79.79%",
-    "uptimeWeek": "87.53%",
-    "uptimeMonth": "97.13%",
+    "uptimeDay": "85.04%",
+    "uptimeWeek": "87.67%",
+    "uptimeMonth": "97.16%",
     "uptimeYear": "99.76%",
     "time": 214,
-    "timeDay": 170,
+    "timeDay": 173,
     "timeWeek": 164,
     "timeMonth": 163,
     "timeYear": 215,
@@ -345,7 +345,7 @@
       "2026-06-03": 382,
       "2026-06-04": 295,
       "2026-06-05": 288,
-      "2026-06-06": 291
+      "2026-06-06": 277
     }
   },
   {
