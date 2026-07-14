@@ -327,15 +327,15 @@
     "url": "$BOARDCONSENT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "board-consent",
-    "status": "up",
+    "status": "down",
     "uptime": "99.85%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.22%",
     "uptimeYear": "99.64%",
     "time": 212,
-    "timeDay": 89,
-    "timeWeek": 164,
+    "timeDay": 155,
+    "timeWeek": 171,
     "timeMonth": 207,
     "timeYear": 213,
     "dailyMinutesDown": {
@@ -350,7 +350,8 @@
       "2026-06-15": 175,
       "2026-06-16": 58,
       "2026-06-18": 81,
-      "2026-07-01": 30
+      "2026-07-01": 30,
+      "2026-07-14": 1
     }
   },
   {
