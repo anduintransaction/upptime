@@ -425,22 +425,22 @@
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.14%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
     "time": 315,
-    "timeDay": 133,
-    "timeWeek": 339,
-    "timeMonth": 341,
+    "timeDay": 224,
+    "timeWeek": 336,
+    "timeMonth": 340,
     "timeYear": 307,
     "dailyMinutesDown": {
       "2025-11-18": 16,
       "2026-05-22": 80,
       "2026-07-14": 35,
-      "2026-09-28": 1
+      "2026-09-28": 12
     }
   },
   {
