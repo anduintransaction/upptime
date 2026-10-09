@@ -4,16 +4,16 @@
     "url": "https://anduintransact.com",
     "icon": "https://icons.duckduckgo.com/ip3/anduintransact.com.ico",
     "slug": "website",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
+    "uptimeDay": "98.97%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.95%",
     "time": 214,
-    "timeDay": 137,
-    "timeWeek": 164,
-    "timeMonth": 175,
+    "timeDay": 160,
+    "timeWeek": 168,
+    "timeMonth": 176,
     "timeYear": 209,
     "dailyMinutesDown": {
       "2025-10-29": 34,
@@ -23,7 +23,7 @@
       "2025-12-25": 27,
       "2026-03-18": 67,
       "2026-09-22": 18,
-      "2026-10-09": 0
+      "2026-10-09": 15
     }
   },
   {
@@ -54,15 +54,15 @@
     "url": "https://anduintransact.com/contact",
     "icon": "https://icons.duckduckgo.com/ip3/anduintransact.com.ico",
     "slug": "contact-page",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.96%",
+    "uptimeDay": "98.98%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.97%",
     "time": 179,
-    "timeDay": 171,
-    "timeWeek": 215,
+    "timeDay": 198,
+    "timeWeek": 219,
     "timeMonth": 238,
     "timeYear": 190,
     "dailyMinutesDown": {
@@ -72,7 +72,7 @@
       "2025-12-23": 28,
       "2025-12-25": 27,
       "2026-09-22": 18,
-      "2026-10-09": 0
+      "2026-10-09": 15
     }
   },
   {
