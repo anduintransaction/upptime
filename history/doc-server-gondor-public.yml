@@ -1,7 +1,7 @@
 url: https://doc-server.anduin.app/web-apps/apps/api/documents/api.js
-status: down
-code: 404
-responseTime: 73
-lastUpdated: 2026-11-02T04:38:58.027Z
+status: up
+code: 200
+responseTime: 197
+lastUpdated: 2026-11-02T04:43:08.460Z
 startTime: 2023-09-22T09:34:49.887Z
 generator: Upptime <https://github.com/upptime/upptime>
