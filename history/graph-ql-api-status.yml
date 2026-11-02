@@ -1,7 +1,7 @@
 url: https://api.anduin.app/graphql
-status: up
-code: 401
-responseTime: 150
-lastUpdated: 2026-11-01T23:04:21.994Z
+status: down
+code: 404
+responseTime: 98
+lastUpdated: 2026-11-02T04:37:57.361Z
 startTime: 2023-09-06T10:49:50.388Z
 generator: Upptime <https://github.com/upptime/upptime>
