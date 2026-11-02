@@ -1,7 +1,7 @@
 url: $PORTAL_DEMO_APP
-status: down
-code: 404
-responseTime: 97
-lastUpdated: 2026-11-02T04:40:00.155Z
+status: up
+code: 200
+responseTime: 374
+lastUpdated: 2026-11-02T04:43:25.953Z
 startTime: 2023-09-22T09:34:55.696Z
 generator: Upptime <https://github.com/upptime/upptime>
