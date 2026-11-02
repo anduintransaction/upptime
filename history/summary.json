@@ -29,22 +29,23 @@
     "url": "https://support.anduintransact.com/",
     "icon": "https://icons.duckduckgo.com/ip3/support.anduintransact.com.ico",
     "slug": "support-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
-    "time": 683,
-    "timeDay": 562,
-    "timeWeek": 3767,
-    "timeMonth": 1526,
-    "timeYear": 756,
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.95%",
+    "time": 682,
+    "timeDay": 324,
+    "timeWeek": 3307,
+    "timeMonth": 1481,
+    "timeYear": 755,
     "dailyMinutesDown": {
       "2025-11-18": 143,
       "2026-01-06": 15,
       "2026-01-07": 18,
-      "2026-08-08": 61
+      "2026-08-08": 61,
+      "2026-11-02": 4
     }
   },
   {
@@ -76,19 +77,20 @@
     "url": "https://id.anduin.app/#/login",
     "icon": "https://icons.duckduckgo.com/ip3/id.anduin.app.ico",
     "slug": "authentication-system",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 268,
-    "timeDay": 235,
-    "timeWeek": 249,
-    "timeMonth": 257,
-    "timeYear": 253,
+    "timeDay": 150,
+    "timeWeek": 226,
+    "timeMonth": 251,
+    "timeYear": 252,
     "dailyMinutesDown": {
-      "2025-11-18": 31
+      "2025-11-18": 31,
+      "2026-11-02": 4
     }
   },
   {
@@ -96,19 +98,20 @@
     "url": "https://fundsub.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/fundsub.anduin.app.ico",
     "slug": "fund-sub-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 224,
-    "timeDay": 147,
-    "timeWeek": 182,
-    "timeMonth": 202,
-    "timeYear": 215,
+    "timeDay": 109,
+    "timeWeek": 168,
+    "timeMonth": 198,
+    "timeYear": 214,
     "dailyMinutesDown": {
-      "2025-11-18": 52
+      "2025-11-18": 52,
+      "2026-11-02": 4
     }
   },
   {
@@ -116,19 +119,20 @@
     "url": "https://dataroom.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/dataroom.anduin.app.ico",
     "slug": "dataroom-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
-    "time": 232,
-    "timeDay": 228,
-    "timeWeek": 201,
-    "timeMonth": 251,
-    "timeYear": 227,
+    "time": 231,
+    "timeDay": 149,
+    "timeWeek": 184,
+    "timeMonth": 245,
+    "timeYear": 226,
     "dailyMinutesDown": {
-      "2025-11-18": 52
+      "2025-11-18": 52,
+      "2026-11-02": 3
     }
   },
   {
@@ -136,19 +140,20 @@
     "url": "https://sign.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/sign.anduin.app.ico",
     "slug": "e-sign-product-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.98%",
     "time": 231,
-    "timeDay": 476,
-    "timeWeek": 225,
-    "timeMonth": 229,
+    "timeDay": 275,
+    "timeWeek": 206,
+    "timeMonth": 225,
     "timeYear": 230,
     "dailyMinutesDown": {
-      "2025-11-18": 127
+      "2025-11-18": 127,
+      "2026-11-02": 3
     }
   },
   {
@@ -156,19 +161,20 @@
     "url": "https://api.anduin.app/api/v1/fundsub/",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "res-tful-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.79%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
-    "time": 247,
-    "timeDay": 141,
-    "timeWeek": 202,
-    "timeMonth": 218,
+    "time": 246,
+    "timeDay": 115,
+    "timeWeek": 188,
+    "timeMonth": 214,
     "timeYear": 246,
     "dailyMinutesDown": {
-      "2025-11-18": 31
+      "2025-11-18": 31,
+      "2026-11-02": 3
     }
   },
   {
@@ -176,19 +182,20 @@
     "url": "https://api.anduin.app/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/api.anduin.app.ico",
     "slug": "graph-ql-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 139,
-    "timeDay": 150,
-    "timeWeek": 114,
+    "timeDay": 124,
+    "timeWeek": 112,
     "timeMonth": 129,
     "timeYear": 138,
     "dailyMinutesDown": {
-      "2025-11-18": 31
+      "2025-11-18": 31,
+      "2026-11-02": 3
     }
   },
   {
@@ -196,19 +203,20 @@
     "url": "https://deals.anduintransact.com/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/deals.anduintransact.com.ico",
     "slug": "gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.98%",
-    "time": 304,
-    "timeDay": 481,
-    "timeWeek": 289,
-    "timeMonth": 307,
-    "timeYear": 290,
+    "time": 303,
+    "timeDay": 279,
+    "timeWeek": 263,
+    "timeMonth": 300,
+    "timeYear": 289,
     "dailyMinutesDown": {
-      "2025-11-18": 106
+      "2025-11-18": 106,
+      "2026-11-02": 3
     }
   },
   {
@@ -216,21 +224,22 @@
     "url": "$GONDOR_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.97%",
     "time": 341,
-    "timeDay": 493,
-    "timeWeek": 328,
-    "timeMonth": 350,
-    "timeYear": 324,
+    "timeDay": 289,
+    "timeWeek": 298,
+    "timeMonth": 342,
+    "timeYear": 323,
     "dailyMinutesDown": {
       "2025-11-18": 37,
       "2026-05-22": 81,
-      "2026-07-14": 35
+      "2026-07-14": 35,
+      "2026-11-02": 2
     }
   },
   {
@@ -238,17 +247,17 @@
     "url": "$GONDOR_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.92%",
-    "time": 351,
-    "timeDay": 393,
-    "timeWeek": 288,
-    "timeMonth": 319,
-    "timeYear": 329,
+    "time": 350,
+    "timeDay": 241,
+    "timeWeek": 263,
+    "timeMonth": 312,
+    "timeYear": 328,
     "dailyMinutesDown": {
       "2025-11-18": 16,
       "2025-12-30": 58,
@@ -258,7 +267,8 @@
       "2026-03-24": 51,
       "2026-04-01": 61,
       "2026-05-22": 79,
-      "2026-07-14": 35
+      "2026-07-14": 35,
+      "2026-11-02": 2
     }
   },
   {
@@ -266,19 +276,20 @@
     "url": "https://doc-server.anduin.app/web-apps/apps/api/documents/api.js",
     "icon": "https://icons.duckduckgo.com/ip3/doc-server.anduin.app.ico",
     "slug": "doc-server-gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 164,
-    "timeDay": 90,
-    "timeWeek": 137,
-    "timeMonth": 239,
+    "timeDay": 82,
+    "timeWeek": 129,
+    "timeMonth": 234,
     "timeYear": 160,
     "dailyMinutesDown": {
-      "2025-11-18": 106
+      "2025-11-18": 106,
+      "2026-11-02": 2
     }
   },
   {
@@ -286,19 +297,20 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 444,
-    "timeDay": 361,
-    "timeWeek": 401,
-    "timeMonth": 453,
-    "timeYear": 429,
+    "time": 443,
+    "timeDay": 221,
+    "timeWeek": 361,
+    "timeMonth": 441,
+    "timeYear": 428,
     "dailyMinutesDown": {
-      "2025-11-18": 151
+      "2025-11-18": 151,
+      "2026-11-02": 2
     }
   },
   {
@@ -306,20 +318,21 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 486,
-    "timeDay": 515,
-    "timeWeek": 586,
-    "timeMonth": 570,
-    "timeYear": 573,
+    "time": 485,
+    "timeDay": 294,
+    "timeWeek": 522,
+    "timeMonth": 555,
+    "timeYear": 572,
     "dailyMinutesDown": {
       "2025-11-18": 50,
-      "2026-04-28": 49
+      "2026-04-28": 49,
+      "2026-11-02": 2
     }
   },
   {
@@ -399,20 +412,21 @@
     "url": "https://portal.anduin.app/api/v3/standalone-app",
     "icon": "https://icons.duckduckgo.com/ip3/portal.anduin.app.ico",
     "slug": "portal-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 219,
-    "timeDay": 254,
-    "timeWeek": 170,
-    "timeMonth": 228,
+    "time": 218,
+    "timeDay": 164,
+    "timeWeek": 158,
+    "timeMonth": 223,
     "timeYear": 220,
     "dailyMinutesDown": {
       "2025-11-18": 31,
-      "2026-04-13": 19
+      "2026-04-13": 19,
+      "2026-11-02": 2
     }
   },
   {
@@ -420,21 +434,22 @@
     "url": "$PORTAL_DEMO_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
-    "time": 319,
-    "timeDay": 472,
-    "timeWeek": 300,
-    "timeMonth": 314,
+    "uptimeYear": "99.97%",
+    "time": 318,
+    "timeDay": 285,
+    "timeWeek": 275,
+    "timeMonth": 307,
     "timeYear": 303,
     "dailyMinutesDown": {
       "2025-11-18": 16,
       "2026-05-22": 80,
-      "2026-07-14": 35
+      "2026-07-14": 35,
+      "2026-11-02": 1
     }
   },
   {
@@ -442,16 +457,16 @@
     "url": "$PORTAL_MINAS_APP",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.91%",
-    "time": 301,
-    "timeDay": 397,
-    "timeWeek": 300,
-    "timeMonth": 295,
+    "time": 300,
+    "timeDay": 243,
+    "timeWeek": 273,
+    "timeMonth": 289,
     "timeYear": 283,
     "dailyMinutesDown": {
       "2025-11-18": 37,
@@ -462,7 +477,8 @@
       "2026-03-24": 51,
       "2026-04-01": 61,
       "2026-05-22": 79,
-      "2026-07-14": 34
+      "2026-07-14": 34,
+      "2026-11-02": 1
     }
   }
 ]
