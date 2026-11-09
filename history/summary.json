@@ -266,19 +266,20 @@
     "url": "https://doc-server.anduin.app/web-apps/apps/api/documents/api.js",
     "icon": "https://icons.duckduckgo.com/ip3/doc-server.anduin.app.ico",
     "slug": "doc-server-gondor-public",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 164,
-    "timeDay": 199,
-    "timeWeek": 159,
-    "timeMonth": 235,
+    "timeDay": 124,
+    "timeWeek": 148,
+    "timeMonth": 229,
     "timeYear": 160,
     "dailyMinutesDown": {
-      "2025-11-18": 106
+      "2025-11-18": 106,
+      "2026-11-09": 1
     }
   },
   {
@@ -286,19 +287,20 @@
     "url": "$DOCSERVER_DEMO_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-gondor-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 447,
-    "timeDay": 465,
-    "timeWeek": 485,
-    "timeMonth": 470,
-    "timeYear": 431,
+    "time": 446,
+    "timeDay": 277,
+    "timeWeek": 445,
+    "timeMonth": 459,
+    "timeYear": 430,
     "dailyMinutesDown": {
-      "2025-11-18": 151
+      "2025-11-18": 151,
+      "2026-11-09": 1
     }
   },
   {
@@ -306,20 +308,21 @@
     "url": "$DOCSERVER_MINAS_ANDUINTRANSACT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "doc-server-minas-tirith",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 494,
-    "timeDay": 663,
-    "timeWeek": 618,
-    "timeMonth": 574,
-    "timeYear": 576,
+    "time": 493,
+    "timeDay": 385,
+    "timeWeek": 567,
+    "timeMonth": 560,
+    "timeYear": 575,
     "dailyMinutesDown": {
       "2025-11-18": 50,
-      "2026-04-28": 49
+      "2026-04-28": 49,
+      "2026-11-09": 1
     }
   },
   {
