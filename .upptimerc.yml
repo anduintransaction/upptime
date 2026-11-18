@@ -83,15 +83,6 @@ sites:
       - "Content-Type: application/json"
     body: '{}'
 
-  - name: DocServer Gondor Public
-    url: https://doc-server.anduin.app/web-apps/apps/api/documents/api.js
-
-  - name: DocServer Gondor Demo
-    url: $DOCSERVER_DEMO_ANDUINTRANSACT
-
-  - name: DocServer Minas Tirith
-    url: $DOCSERVER_MINAS_ANDUINTRANSACT
-
   - name: Board Consent
     url: $BOARDCONSENT
 
